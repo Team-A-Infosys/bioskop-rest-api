@@ -34,7 +34,7 @@ public class FilmsController {
     /**
      * GET ALL FILM
      */
-    @GetMapping("/film/AllFilm")
+    @GetMapping("/films")
     public ResponseEntity<Object> getAllFilm() {
         try {
             List<Films> result = filmsService.findAllFilms();
@@ -82,7 +82,7 @@ public class FilmsController {
     /**
      * CREATE FILM
      */
-    @PostMapping("/film")
+    @PostMapping("/dashboard/create/film")
     public ResponseEntity<Object> createFilm(@RequestBody Films films) {
         try {
             Films result = filmsService.createFilm(films);
@@ -101,7 +101,7 @@ public class FilmsController {
     /**
      * UPDATE FILM by ID
      */
-    @PutMapping("/film/{filmId}")
+    @PutMapping("/dashboard/update/film/{filmId}")
     public ResponseEntity<Object> updateFilms(@PathVariable(value = "filmId") Long filmId, @RequestBody Films filmsdetails) {
         try {
             Films films = filmsdetails;
@@ -122,7 +122,7 @@ public class FilmsController {
     /**
      * DELETE FILM by ID
      */
-    @DeleteMapping("/film/{filmId}")
+    @DeleteMapping("/dashboard/delete/film/{filmId}")
     public ResponseEntity<Object> deleteFilms(@PathVariable Long filmId) {
         try {
             filmsService.deleteFilmById(filmId);
@@ -145,7 +145,7 @@ public class FilmsController {
      * FIND FILM
      * custom Challange 4 slide 8 nomor 1
      */
-    @PostMapping("/film/ShowMovie")
+    @PostMapping("/search/films/status")
     public ResponseEntity<Object> ShowMovie(@RequestBody Films films) {
         try {
             List<Films> result = filmsService.getByIsPlaying(films.getIsPlaying());
@@ -171,7 +171,7 @@ public class FilmsController {
         }
     }
 
-    @GetMapping("/print")
+    @GetMapping("/dashboard/print/film")
     public void printReport() throws Exception {
         response.setContentType("application/pdf");
         response.setHeader("Content-Disposition", "attachment; filename=\"films_list.pdf\"");
