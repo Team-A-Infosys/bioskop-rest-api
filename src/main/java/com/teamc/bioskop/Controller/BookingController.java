@@ -40,7 +40,7 @@ public class BookingController {
      * Get All booking from booking table
      * throws ResourceNotFoundException if not found happened
      */
-    @GetMapping("/booking")
+    @GetMapping("/dashboard/bookings")
     public ResponseEntity<Object> findAll() {
         try {
             List<Booking> bookings = bookingService.getAll();
@@ -96,7 +96,7 @@ public class BookingController {
      * update booking
      * throws ResourceNotFoundException if data not found
      */
-    @PutMapping("/booking/{id}")
+    @PutMapping("/dashboard/booking/{id}")
     public ResponseEntity<Object> bookingupdate(@PathVariable Long id, @RequestBody BookingRequestDTO bookingRequestDTO) {
         try {
             if (bookingRequestDTO.getSch() == null || bookingRequestDTO.getUsr() == null) {
@@ -147,7 +147,7 @@ public class BookingController {
      * delete schedule by id
      * throws ResourceNotFoundException if data is not found
      */
-    @DeleteMapping("/booking/{id}")
+    @DeleteMapping("/dashboard/booking/{id}")
     public ResponseEntity<Object> deleteBooking(@PathVariable Long id) {
         try {
             bookingService.deleteSBookingById(id);
@@ -169,7 +169,7 @@ public class BookingController {
      * Query Find by Filmnme
      * throws ResourceNotFoundException if film name is not found
      */
-    @PostMapping("/booking/Filmname")
+    @PostMapping("/search/booking/filmName")
     public ResponseEntity<Object> findBookingBySchdeuleFilmName(@RequestBody Films films) throws ResourceNotFoundException {
         try {
             List<Booking> bookingByScheduleFilmsname = bookingService.getBookingByFilmName(films.getName());
@@ -190,7 +190,7 @@ public class BookingController {
     }
 
 
-    @GetMapping("/cetak")
+    @GetMapping("/dashboard/print/bookings")
     public void printReport() throws Exception{
         response.setContentType(("application/pdf"));
         response.setHeader("Content-Disposition", "attachment; filename=\"booking_list.pdf\"");

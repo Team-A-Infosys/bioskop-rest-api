@@ -30,7 +30,7 @@ public class UserController {
      * Get All Users, Logger And Response DONE
      * @return
      */
-    @GetMapping("/users")
+    @GetMapping("/dashboard/users")
     public ResponseEntity<Object> getAllUser() {
         try {
             List<User> result = userServiceImplements.getAll();
@@ -109,7 +109,7 @@ public class UserController {
      * @param user
      * @return
      */
-    @PostMapping("/users")
+    @PostMapping("/dashboard/user")
     public ResponseEntity<Object> createUser(@RequestBody User user) {
 
         try {
@@ -149,7 +149,7 @@ public class UserController {
      * @param userDetails
      * @return
      */
-    @PutMapping("/users/{users_Id}")
+    @PutMapping("/dashboard/user/{users_Id}")
     public ResponseEntity<Object> updateUser(@PathVariable Long users_Id, @RequestBody User userDetails) {
         try {
             User user = userServiceImplements.getUserById(users_Id)
@@ -184,7 +184,7 @@ public class UserController {
      * @param users_Id
      * @return
      */
-    @DeleteMapping("/users/{users_Id}")
+    @DeleteMapping("/dashboard/user/{users_Id}")
     public ResponseEntity<Object> deleteUser(@PathVariable Long users_Id) {
         try {
             userServiceImplements.deleteUserById(users_Id);
