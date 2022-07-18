@@ -171,7 +171,7 @@ public class FilmsController {
         }
     }
 
-    @GetMapping("/dashboard/print/film")
+    @GetMapping("/dashboard/print/films")
     public void printReport() throws Exception {
         response.setContentType("application/pdf");
         response.setHeader("Content-Disposition", "attachment; filename=\"films_list.pdf\"");
