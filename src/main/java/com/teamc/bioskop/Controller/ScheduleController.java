@@ -36,7 +36,7 @@ public class ScheduleController {
     /**
      * Get all of data from schedules table
      */
-    @GetMapping("/schedule")
+    @GetMapping("/schedules")
     public ResponseEntity<Object> ScheduleList() {
         try {
             List<Schedule> result = scheduleService.getAll();
@@ -69,7 +69,7 @@ public class ScheduleController {
      * create new schedule into schedules table
      * throws ResourceNotFoundException if bad request happened
      */
-    @PostMapping("/schedule")
+    @PostMapping("/dashboard/schedule")
     public ResponseEntity<Object> createScheduleDTO(@RequestBody ScheduleRequestDTO scheduleRequestDTO) {
         try {
             Schedule scheduleCreate = scheduleRequestDTO.convertToEntity();
@@ -88,7 +88,7 @@ public class ScheduleController {
      * update schedule
      * throws ResourceNotFoundException if data not found
      */
-    @PutMapping("/schedule/{id}")
+    @PutMapping("/dashboard/schedule/{id}")
     public ResponseEntity<Object> updateScheduleDTO(@PathVariable Integer id, @RequestBody ScheduleRequestDTO scheduleRequestDTO) {
         try {
             Schedule schedule = scheduleRequestDTO.convertToEntity();
@@ -111,7 +111,7 @@ public class ScheduleController {
      * delete schedule by id
      * throws ResourceNotFoundException if data is not found
      */
-    @DeleteMapping("/schedule/{id}")
+    @DeleteMapping("/dashboard/schedule/{id}")
     public ResponseEntity<Object> deleteBooking(@PathVariable Integer id) {
         try {
             scheduleService.deleteScheduleById(id);
@@ -132,7 +132,7 @@ public class ScheduleController {
      * Get Schedule by Schedule id
      * throws ResourceNotFoundException if data is not found
      */
-    @GetMapping("/schedule/{id}")
+    @GetMapping("/dashboard/schedule/{id}")
     public ResponseEntity<Object> getscheduleById(@PathVariable Integer id) {
         try {
             Optional<Schedule> schedule = scheduleService.getScheduleById(id);
@@ -156,7 +156,7 @@ public class ScheduleController {
      * Query Find colum Film,Studio Name, Price
      * throws ResourceNotFoundException if film name is not found
      */
-    @PostMapping("/schedule/byfilmnameLike")
+    @PostMapping("/search/schedule/byfilmnameLike")
     public ResponseEntity<Object> findScheduleByFilmName(@RequestBody Films film) {
         try {
             List<Schedule> scheduleByFilmName = scheduleService.getScheduleByFilmNameLike(film.getName());
@@ -176,7 +176,7 @@ public class ScheduleController {
         }
 
     }
-    @GetMapping("/cetak-schedule")
+    @GetMapping("/dashboard/print/schedule")
     public void printReport() throws Exception{
         response.setContentType(("application/pdf"));
         response.setHeader("Content-Disposition", "attachment; filename=\"Schedule_list.pdf\"");
