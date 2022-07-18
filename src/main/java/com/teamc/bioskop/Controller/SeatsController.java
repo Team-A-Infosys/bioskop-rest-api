@@ -61,25 +61,6 @@ public class SeatsController {
     }
 
     /**
-     * CREATE BY ID
-     */
-    @PostMapping("/seats")
-    public ResponseEntity<Object> createseats(@RequestBody Seats seat) {
-        try {
-            Seats result = seatsService.createseat(seat);
-            logger.info(Line + " Logger Start Create " + Line);
-            logger.info(result);
-            logger.info(Line + " Logger END GCreate " + Line);
-            return ResponseHandler.generateResponse("Succesfully Add Data Seats !", HttpStatus.CREATED, result);
-        } catch (Exception e) {
-            logger.info("==================== Logger Start Create     ====================");
-            logger.error(ResponseHandler.generateResponse(e.getMessage(), HttpStatus.NOT_FOUND, "Table Has No Value!"));
-            logger.info("==================== Logger End Create     ====================");
-            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, null);
-        }
-    }
-
-    /**
      * GET SEAT BY ID
      */
     @GetMapping("/seats/{seatId}")
@@ -101,9 +82,29 @@ public class SeatsController {
     }
 
     /**
+     * CREATE BY ID
+     */
+    @PostMapping("/dashboard/create/seats")
+    public ResponseEntity<Object> createseats(@RequestBody Seats seat) {
+        try {
+            Seats result = seatsService.createseat(seat);
+            logger.info(Line + " Logger Start Create " + Line);
+            logger.info(result);
+            logger.info(Line + " Logger END GCreate " + Line);
+            return ResponseHandler.generateResponse("Succesfully Add Data Seats !", HttpStatus.CREATED, result);
+        } catch (Exception e) {
+            logger.info("==================== Logger Start Create     ====================");
+            logger.error(ResponseHandler.generateResponse(e.getMessage(), HttpStatus.NOT_FOUND, "Table Has No Value!"));
+            logger.info("==================== Logger End Create     ====================");
+            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, null);
+        }
+    }
+
+
+    /**
      * UPDATE BY ID
      */
-    @PutMapping("/seats/{seatId}")
+    @PutMapping("/dashboard/update/seats/{seatId}")
     public ResponseEntity<Object> updateSeats(@PathVariable(value = "seatId") Long seatId, @Valid @RequestBody Seats seatsDetails) {
         try {
             Seats seat = seatsService.findbyid(seatId).orElseThrow(() ->
@@ -131,7 +132,7 @@ public class SeatsController {
     /**
      * DELETE BY ID
      */
-    @DeleteMapping("/seats/{seatId}")
+    @DeleteMapping("/dashboard/delete/seats/{seatId}")
     public ResponseEntity<Object> deleteseats(@PathVariable Long seatId) {
         try {
             seatsService.deleteseat(seatId);
@@ -158,7 +159,7 @@ public class SeatsController {
      * Seat Available
      * custom challange 4 slide 8 nomor 3 update map
      */
-    @PostMapping("/seats/isAvailable")
+    @PostMapping("/search/seats/isAvailable")
     public ResponseEntity<Object> findSeats(@RequestBody Seats seats) {
         try {
             List<Seats> result = seatsService.getSeatAvailable(seats.getIsAvailable());
@@ -186,7 +187,7 @@ public class SeatsController {
         }
 
     }
-    @GetMapping("/print-seatsreport")
+    @GetMapping("/dashboard/print/seats")
     public void printReportSeat() throws Exception{
         httpServletResponse.setContentType("application/pdf");
         httpServletResponse.setHeader("Content-Disposition","attachment; filename=\"Seats Report.pdf\"");
