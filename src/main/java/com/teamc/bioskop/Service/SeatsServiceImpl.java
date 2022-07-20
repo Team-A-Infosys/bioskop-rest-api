@@ -72,14 +72,14 @@ public class SeatsServiceImpl implements SeatsService {
         if (optionalSeats == null) {
             throw new ResourceNotFoundException("Seats not exist with id :" + seatId);
         }
-        Seats seats = seatRepository.getReferenceById(seatId);
+        Seats seats = seatRepository.getById(seatId);
         this.seatRepository.delete(seats);
 
     }
 
 
     public Seats getReferenceById(Long id) {
-        return this.seatRepository.getReferenceById(id);
+        return this.seatRepository.getById(id);
     }
 
     @Override
