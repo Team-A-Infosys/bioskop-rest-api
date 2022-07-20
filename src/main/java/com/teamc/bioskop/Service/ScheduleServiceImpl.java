@@ -63,7 +63,7 @@ public class ScheduleServiceImpl implements ScheduleService {
 
     public Schedule getReferenceById(Integer id) {
 
-        return this.scheduleRepository.getReferenceById(id);
+        return this.scheduleRepository.getById(id);
     }
 
     //Delete
@@ -72,7 +72,7 @@ public class ScheduleServiceImpl implements ScheduleService {
         if (optionalSchedule == null) {
             throw new ResourceNotFoundException("Schedule not exist with id : " + Id);
         }
-        Schedule schedule = scheduleRepository.getReferenceById(Id);
+        Schedule schedule = scheduleRepository.getById(Id);
         this.scheduleRepository.delete(schedule);
     }
 
