@@ -1,26 +1,48 @@
 package com.teamc.bioskop.Service;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
+import com.teamc.bioskop.Model.Role;
 import com.teamc.bioskop.Model.Seats;
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.User;
+import com.teamc.bioskop.Repository.RoleRepository;
 import com.teamc.bioskop.Repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
 @AllArgsConstructor
-public class UserServiceImplements implements UserService {
+@Transactional
+public class UserServiceImplements implements UserService, UserDetailsService {
     private final UserRepository userRepository;
 
+    private final RoleRepository roleRepository;
+
+    private final PasswordEncoder passwordEncoder;
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        User user = this.userRepository.findByUsername(username);
+        if (user == null){
+            throw new UsernameNotFoundException("User is not found");
+        }
+        Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
+        user.getRoles().forEach(role -> authorities.add(new SimpleGrantedAuthority(role.getName())));
+        return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), authorities);
+    }
     /***
      * Get All User
      * @return
@@ -53,8 +75,25 @@ public class UserServiceImplements implements UserService {
      * @return
      */
     public User createUser(User user) {
-
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
         return this.userRepository.save(user);
+    }
+
+    @Override
+    public Role createRole(Role role) {
+        return this.roleRepository.save(role);
+    }
+
+    @Override
+    public void addRoleToUser(String username, String roleName) {
+        User user = this.userRepository.findByUsername(username);
+        Role role = this.roleRepository.findByName(roleName);
+        user.getRoles().add(role);
+    }
+
+    @Override
+    public User getUserByUsername(String username) {
+        return this.userRepository.findByUsername(username);
     }
 
     /***
@@ -67,7 +106,7 @@ public class UserServiceImplements implements UserService {
         if (optionalUser == null) {
             throw new ResourceNotFoundException("User not exist with id :" + users_Id);
         }
-        User user = userRepository.getReferenceById(users_Id);
+        User user = userRepository.getById(users_Id);
         this.userRepository.delete(user);
     }
 
@@ -87,7 +126,7 @@ public class UserServiceImplements implements UserService {
 
     @Override
     public User getReferenceById(Long Id) {
-        return this.userRepository.getReferenceById(Id);
+        return this.userRepository.getById(Id);
     }
 
     @Override
@@ -106,4 +145,6 @@ public class UserServiceImplements implements UserService {
 
         return this.userRepository.findAll(pageable);
     }
+
+
 }

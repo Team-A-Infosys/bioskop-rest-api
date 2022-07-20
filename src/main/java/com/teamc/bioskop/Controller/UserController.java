@@ -1,11 +1,13 @@
 package com.teamc.bioskop.Controller;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
+import com.teamc.bioskop.Model.Role;
 import com.teamc.bioskop.Model.User;
 import com.teamc.bioskop.Repository.UserRepository;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Service.UserServiceImplements;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
@@ -109,7 +111,7 @@ public class UserController {
      * @param user
      * @return
      */
-    @PostMapping("/dashboard/user")
+    @PostMapping("/dashboard/user/save")
     public ResponseEntity<Object> createUser(@RequestBody User user) {
 
         try {
@@ -140,6 +142,19 @@ public class UserController {
             logger.info(" ");
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, "User Already Exist!");
         }
+    }
+
+    @PostMapping("/dashboard/role/save")
+    public ResponseEntity<Object> createRole(@RequestBody Role role){
+        Role roleResult = this.userServiceImplements.createRole(role);
+        return ResponseHandler.generateResponse("", HttpStatus.CREATED, roleResult);
+    }
+
+    @PostMapping("/dashboard/role/addtouser")
+    public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form){
+        this.userServiceImplements.addRoleToUser(form.getUsername(), form.getRoleName());
+        return ResponseHandler.generateResponse("", HttpStatus.OK,
+             "success added role " + form.getRoleName() + "to" + form.getUsername());
 
     }
 
@@ -203,4 +218,10 @@ public class UserController {
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.NOT_FOUND, "Data Not Found!");
         }
     }
+}
+@Data
+class RoleToUserForm{
+    private String username;
+
+    private String roleName;
 }
