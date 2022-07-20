@@ -19,7 +19,7 @@ public class AttachmentRest {
 
     private final AttachmentServiceImpl attachmentService;
 
-    @PostMapping("/upload")
+    @PostMapping("/dashboard/upload")
     public AttachmentResponse uploadFile(@RequestParam("file")MultipartFile file) throws Exception {
 
         Attachment attachment = null;

@@ -2,6 +2,7 @@ package com.teamc.bioskop.Service;
 
 import java.util.*;
 
+import com.teamc.bioskop.Model.Role;
 import com.teamc.bioskop.Model.Seats;
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.User;
@@ -18,8 +19,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.teamc.bioskop.Model.Role;
-
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
@@ -29,20 +28,22 @@ import java.util.Optional;
 @Transactional
 public class UserServiceImplements implements UserService, UserDetailsService {
     private final UserRepository userRepository;
-    
+
     private final RoleRepository roleRepository;
 
     private final PasswordEncoder passwordEncoder;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = this.userRepository.findByUsername(username);
 
         if(user == null){
-            throw new UsernameNotFoundException("User Not Found");
+            throw new UsernameNotFoundException("User not found");
         }
         Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
         user.getRoles().forEach(role -> authorities.add(new SimpleGrantedAuthority(role.getName())));
-        return new org.springframework.security.core.userdetails.User(user.getUsername(),user.getPassword(),authorities);
+        return new org.springframework.security.core.userdetails.User(user.getUsername()
+                , user.getPassword(), authorities);
     }
 
     @Override
