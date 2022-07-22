@@ -3,6 +3,8 @@ package com.teamc.bioskop.Controller;
 import com.teamc.bioskop.Model.Attachment;
 import com.teamc.bioskop.Response.AttachmentResponse;
 import com.teamc.bioskop.Service.AttachmentServiceImpl;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;
@@ -15,6 +17,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @AllArgsConstructor
+@SecurityRequirement(name = "bearer-key")
+@Tag(name = "7. Admin for Upload File")
+
 public class AttachmentRest {
 
     private final AttachmentServiceImpl attachmentService;
