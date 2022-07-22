@@ -9,6 +9,8 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.ZonedDateTime;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Setter
 @Getter
@@ -23,7 +25,6 @@ public class User {
     @Column(name = "user_id")
     private Long userId;
 
-
     @Column(name = "username")
     private String username;
 
@@ -32,6 +33,9 @@ public class User {
 
     @Column(name = "password")
     private String password;
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    private Collection<Role> roles = new ArrayList<>();
 
     @CreationTimestamp
     @Column(nullable = false, updatable = false)

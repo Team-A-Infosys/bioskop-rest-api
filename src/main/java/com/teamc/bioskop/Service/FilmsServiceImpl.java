@@ -47,7 +47,7 @@ public class FilmsServiceImpl implements FilmsService {
     }
 
     public Films getReferenceById(Long id) {
-        return this.filmsRepository.getReferenceById(id);
+        return this.filmsRepository.getById(id);
     }
 
     @Override

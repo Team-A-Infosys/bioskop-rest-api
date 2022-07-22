@@ -51,7 +51,7 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public Booking getReferenceById(Long Id) {
-        return this.bookingRepository.getReferenceById(Id);
+        return this.bookingRepository.getById(Id);
     }
 
     @Override
