@@ -12,6 +12,10 @@ import com.teamc.bioskop.Repository.UserRepository;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Service.UserServiceImplements;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
@@ -31,6 +35,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.awt.print.Book;
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -96,6 +101,14 @@ public class UserController {
      * @return
      */
     @GetMapping("/users/{users_Id}")
+    @Operation(summary = "Get One User")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Success get token",
+                    content = { @Content(mediaType = "application/json", schema = @Schema(implementation = User.class)) }),
+            @ApiResponse(responseCode = "400", description = "Invalid id supplied",
+                    content = @Content),
+            @ApiResponse(responseCode = "404", description = "User not found",
+                    content = @Content) })
     public ResponseEntity<Object> getUserById(@PathVariable Long users_Id) {
         try {
 //            User userResult = userRepository.getReferenceById(users_Id);
