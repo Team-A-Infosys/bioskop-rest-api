@@ -9,6 +9,8 @@ import com.teamc.bioskop.Response.BookingResponsePost;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Service.BookingService;
 import com.teamc.bioskop.Service.ReportPDFBookingService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrint;
@@ -26,6 +28,9 @@ import java.util.stream.Collectors;
 
 @RestController
 @AllArgsConstructor
+@SecurityRequirement(name = "bearer-key")
+@Tag(name = "6. Booking Controller")
+
 public class BookingController {
 
     private static final Logger logger = LogManager.getLogger(BookingController.class);

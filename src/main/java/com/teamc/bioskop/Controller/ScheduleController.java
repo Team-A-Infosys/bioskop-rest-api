@@ -7,8 +7,9 @@ import com.teamc.bioskop.Model.Schedule;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Response.ScheduleResponseFilmSeatDTO;
 import com.teamc.bioskop.Response.ScheduleResponseNameLikeDTO;
-import com.teamc.bioskop.Service.ScheduleService;
 import com.teamc.bioskop.Service.ScheduleServiceImpl;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrint;
@@ -24,6 +25,9 @@ import java.util.stream.Collectors;
 
 @RestController
 @AllArgsConstructor
+@SecurityRequirement(name = "bearer-key")
+@Tag(name = "3. Schedule Controller")
+
 public class ScheduleController {
 
     private static final Logger logger = LogManager.getLogger(ScheduleController.class);
