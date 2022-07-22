@@ -20,15 +20,6 @@ public class BioskopApplication {
     }
 
     @Bean
-    CommandLineRunner run(UserService userService){
-        return args ->{
-        userService.createUser(new User(null, "harist", "harist@gmail.com", "1234", new ArrayList<>(), ZonedDateTime.now(), ZonedDateTime.now()));
-        userService.addRoleToUser("harist", "ROLE_ADMIN");
-
-        };
-    }
-
-    @Bean
     PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
     }
