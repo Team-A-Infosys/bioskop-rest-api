@@ -2,13 +2,20 @@ package com.teamc.bioskop.Service;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Booking;
+import com.teamc.bioskop.Model.User;
 import com.teamc.bioskop.Repository.BookingRepository;
+import com.teamc.bioskop.Repository.UserRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
+import java.net.http.HttpRequest;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.List;
@@ -19,6 +26,8 @@ import java.util.Optional;
 public class BookingServiceImpl implements BookingService {
 
     private BookingRepository bookingRepository;
+
+    private UserRepository userRepository;
 
 
     @Override
@@ -56,7 +65,18 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
-    public Booking createBooking(Booking booking) {
+    public Booking createBooking(Booking booking, Authentication authentication) {
+
+        if (authentication == null){
+            throw new ResourceNotFoundException("Login First");
+        }
+
+        if (booking.getUser() == null){
+            String username = authentication.getName();
+            User user = this.userRepository.findByUsername(username);
+            booking.setUser(user);
+        }
+
 
         booking.setCreatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
         booking.setUpdatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));

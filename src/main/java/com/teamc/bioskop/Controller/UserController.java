@@ -31,6 +31,10 @@ import org.springframework.security.core.GrantedAuthority;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
+
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -38,6 +42,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.print.Book;
 import java.io.IOException;
+import java.security.Principal;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -265,6 +270,10 @@ public class UserController {
         } else {
             throw new RuntimeException("Refresh token is missing");
         }
+    }
+    @GetMapping("/print-user-login")
+    public String userLogin(Authentication authentication, Principal principal){
+       return authentication.getName();
     }
 }
 

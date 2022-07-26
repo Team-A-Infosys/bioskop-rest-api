@@ -19,9 +19,11 @@ import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.net.http.HttpRequest;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
@@ -130,13 +132,12 @@ public class BookingController {
      * throws ResourceNotFoundException if bad request happened
      */
     @PostMapping("/booking")
-    public ResponseEntity<Object> bookingCreate(@RequestBody BookingRequestDTO bookingRequestDTO) {
+    public ResponseEntity<Object> bookingCreate(@RequestBody BookingRequestDTO bookingRequestDTO
+            , Authentication authentication) {
         try {
-            if (bookingRequestDTO.getSch() == null || bookingRequestDTO.getUsr() == null) {
-                throw new ResourceNotFoundException("Booking must have schedule id and user id");
-            }
+
             Booking booking = bookingRequestDTO.covertToEntitiy();
-            bookingService.createBooking(booking);
+            bookingService.createBooking(booking, authentication);
             BookingResponsePost result = booking.convertToResponsePost();
             logger.info(Line + " Logger Start Create Booking " + Line);
             logger.info("Create Booking : " + result);
