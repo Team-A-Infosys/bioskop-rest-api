@@ -262,8 +262,14 @@ public class UserController {
         }
     }
     @GetMapping("/print-user-login")
-    public String userLogin(Authentication authentication, Principal principal){
-       return authentication.getName();
+    public List<String> userLogin(Authentication authentication){
+        List<String> loginInfo = new ArrayList<>();
+
+        loginInfo.add("Name :" + authentication.getName());
+        loginInfo.add("Authorities : " + authentication.getAuthorities());
+        loginInfo.add("Principal : " + authentication.getPrincipal());
+
+        return loginInfo;
     }
 }
 

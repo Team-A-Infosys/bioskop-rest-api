@@ -13,6 +13,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -106,7 +107,18 @@ public class UserServiceImplements implements UserService, UserDetailsService {
             roles.add(role);
             user.setRoles(roles);
         }
-        return this.userRepository.save(user);
+        User checkEmail = this.userRepository.findByEmailId(user.getEmailId());
+        User checkUsername = this.userRepository.findByUsername(user.getUsername());
+
+        if (checkEmail != null) {
+            throw new ResourceNotFoundException("Email has been taken");
+        }
+
+        if(checkUsername != null){
+            throw new ResourceNotFoundException("Username has been taken");
+        }
+            return this.userRepository.save(user);
+
     }
 
     /***
@@ -115,6 +127,7 @@ public class UserServiceImplements implements UserService, UserDetailsService {
      */
     @Override
     public void deleteUserById(Long users_Id) {
+
         Optional<User> optionalUser = userRepository.findById(users_Id);
         if (optionalUser == null) {
             throw new ResourceNotFoundException("User not exist with id :" + users_Id);
