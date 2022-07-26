@@ -33,6 +33,9 @@ public class UserServiceImplements implements UserService, UserDetailsService {
 
     private final PasswordEncoder passwordEncoder;
 
+    Collection<Role> roles = new ArrayList<>();
+
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = this.userRepository.findByUsername(username);
@@ -97,6 +100,11 @@ public class UserServiceImplements implements UserService, UserDetailsService {
      */
     public User createUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        if (user.getRoles().isEmpty()){
+            Role role = this.roleRepository.findByName("ROLE_USER");
+            roles.add(role);
+            user.setRoles(roles);
+        }
         return this.userRepository.save(user);
     }
 

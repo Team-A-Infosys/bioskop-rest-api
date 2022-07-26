@@ -12,6 +12,7 @@ import com.teamc.bioskop.Repository.UserRepository;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Service.UserServiceImplements;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -61,6 +62,14 @@ public class UserController {
      * @return
      */
     @GetMapping("/dashboard/users")
+    @Operation(summary = "Get All Users")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Success get All users",
+                    content = { @Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema (implementation = User.class))) }),
+            @ApiResponse(responseCode = "400", description = "Invalid id supplied",
+                    content = @Content),
+            @ApiResponse(responseCode = "404", description = "User not found",
+                    content = @Content) })
     public ResponseEntity<Object> getAllUser() {
         try {
             List<User> result = userServiceImplements.getAll();
@@ -147,39 +156,6 @@ public class UserController {
      * @param user
      * @return
      */
-    @PostMapping("/dashboard/user")
-    public ResponseEntity<Object> createUser(@RequestBody User user) {
-
-        try {
-//            userServiceImplements.createUser(user);
-            User userResult = userServiceImplements.createUser(user);
-            Map<String, Object> userMap = new HashMap<>();
-            List<Map<String, Object>> maps = new ArrayList<>();
-
-            logger.info("==================== Logger Start Create Users ====================");
-            logger.info("User Successfully Created !");
-            logger.info("ID       : " + userResult.getUserId());
-            logger.info("Username : " + userResult.getUsername());
-            logger.info("Email    : " + userResult.getEmailId());
-            logger.info("Password : " + userResult.getPassword());
-
-            userMap.put("ID             ", userResult.getUserId());
-            userMap.put("Username       ", userResult.getUsername());
-            userMap.put("Email          ", userResult.getEmailId());
-            userMap.put("Password       ", userResult.getPassword());
-            maps.add(userMap);
-            logger.info("==================== Logger End Create Users   ====================");
-            logger.info(" ");
-            return ResponseHandler.generateResponse("Successfully Created User!", HttpStatus.CREATED, maps);
-        } catch (Exception e) {
-            logger.info("==================== Logger Start Create Users     ====================");
-            logger.error(ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, "User Already Exist!"));
-            logger.info("==================== Logger End Create Users     ====================");
-            logger.info(" ");
-            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, "User Already Exist!");
-        }
-
-    }
 
     @PostMapping("/dashboard/role")
     public ResponseEntity<Object> createRole(@RequestBody Role role){

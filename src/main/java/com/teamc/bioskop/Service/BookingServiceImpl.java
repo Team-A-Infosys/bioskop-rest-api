@@ -20,6 +20,7 @@ public class BookingServiceImpl implements BookingService {
 
     private BookingRepository bookingRepository;
 
+
     @Override
     public List<Booking> getAll() {
         List<Booking> optionalBooking = bookingRepository.findAll();
@@ -56,6 +57,7 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public Booking createBooking(Booking booking) {
+
         booking.setCreatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
         booking.setUpdatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
         return this.bookingRepository.save(booking);
