@@ -66,6 +66,10 @@ public class LoginController {
                 .withExpiresAt(new Date(System.currentTimeMillis() + 30 * 60 * 1000))
                 .withIssuer(request.getRequestURL().toString())
                 .sign(algorithm);
+//
+//        response.setHeader("access_token", access_token);
+//        response.setHeader("refresh_token", refresh_token);
+
         Map<String, String> tokens = new HashMap<>();
         tokens.put("access_token", access_token);
         tokens.put("refresh_token", refresh_token);
@@ -88,22 +92,22 @@ public class LoginController {
             logger.info("ID       : " + userResult.getUserId());
             logger.info("Username : " + userResult.getUsername());
             logger.info("Email    : " + userResult.getEmailId());
-            logger.info("Password : " + userResult.getPassword());
+            logger.info("Role     :" + userResult.getRoles());
 
             userMap.put("ID             ", userResult.getUserId());
             userMap.put("Username       ", userResult.getUsername());
             userMap.put("Email          ", userResult.getEmailId());
-            userMap.put("Password       ", userResult.getPassword());
+            userMap.put("Role           ", userResult.getRoles());
             maps.add(userMap);
             logger.info("==================== Logger End Create Users   ====================");
             logger.info(" ");
             return ResponseHandler.generateResponse("Successfully Created User!", HttpStatus.CREATED, maps);
         } catch (Exception e) {
             logger.info("==================== Logger Start Create Users     ====================");
-            logger.error(ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, "User Already Exist!"));
+            logger.error(ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, null));
             logger.info("==================== Logger End Create Users     ====================");
             logger.info(" ");
-            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, "User Already Exist!");
+            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.BAD_REQUEST, null);
         }
 
     }
