@@ -1,4 +1,4 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import java.util.*;
 
@@ -8,6 +8,7 @@ import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.User;
 import com.teamc.bioskop.Repository.RoleRepository;
 import com.teamc.bioskop.Repository.UserRepository;
+import com.teamc.bioskop.Service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

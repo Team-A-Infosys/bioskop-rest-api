@@ -1,7 +1,8 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import com.teamc.bioskop.Model.Attachment;
 import com.teamc.bioskop.Repository.AttachmentRepository;
+import com.teamc.bioskop.Service.AttachmentService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -11,7 +12,7 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
-public class AttachmentServiceImpl implements AttachmentService{
+public class AttachmentServiceImpl implements AttachmentService {
 
     private AttachmentRepository attachmentRepository;
     @Override

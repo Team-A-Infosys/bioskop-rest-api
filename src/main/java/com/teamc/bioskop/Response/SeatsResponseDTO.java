@@ -1,7 +1,7 @@
 package com.teamc.bioskop.Response;
 
 
-import com.teamc.bioskop.Model.StatusSeats;
+import com.teamc.bioskop.Model.Enum.StatusSeats;
 import lombok.*;
 
 @Getter

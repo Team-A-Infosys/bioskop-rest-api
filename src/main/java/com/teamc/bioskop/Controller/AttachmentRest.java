@@ -2,7 +2,7 @@ package com.teamc.bioskop.Controller;
 
 import com.teamc.bioskop.Model.Attachment;
 import com.teamc.bioskop.Response.AttachmentResponse;
-import com.teamc.bioskop.Service.AttachmentServiceImpl;
+import com.teamc.bioskop.Service.impl.AttachmentServiceImpl;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;

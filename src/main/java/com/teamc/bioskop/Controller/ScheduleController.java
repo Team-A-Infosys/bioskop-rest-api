@@ -7,7 +7,7 @@ import com.teamc.bioskop.Model.Schedule;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Response.ScheduleResponseFilmSeatDTO;
 import com.teamc.bioskop.Response.ScheduleResponseNameLikeDTO;
-import com.teamc.bioskop.Service.ScheduleServiceImpl;
+import com.teamc.bioskop.Service.impl.ScheduleServiceImpl;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;

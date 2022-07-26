@@ -1,6 +1,6 @@
 package com.teamc.bioskop.Response;
 
-import com.teamc.bioskop.Model.StatusFilms;
+import com.teamc.bioskop.Model.Enum.StatusFilms;
 import lombok.*;
 
 @Getter

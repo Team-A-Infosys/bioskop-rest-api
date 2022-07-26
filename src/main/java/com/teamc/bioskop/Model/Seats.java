@@ -1,6 +1,7 @@
 package com.teamc.bioskop.Model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.teamc.bioskop.Model.Enum.StatusSeats;
 import com.teamc.bioskop.Response.SeatsResponseDTO;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

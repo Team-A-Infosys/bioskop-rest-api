@@ -1,18 +1,16 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Films;
-import com.teamc.bioskop.Model.StatusFilms;
+import com.teamc.bioskop.Model.Enum.StatusFilms;
 import com.teamc.bioskop.Repository.FilmsRepository;
+import com.teamc.bioskop.Service.FilmsService;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;

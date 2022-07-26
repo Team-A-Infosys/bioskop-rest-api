@@ -1,8 +1,6 @@
 package com.teamc.bioskop.Service;
 
-import com.teamc.bioskop.Model.Films;
 import com.teamc.bioskop.Model.Schedule;
-import com.teamc.bioskop.Model.StatusFilms;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

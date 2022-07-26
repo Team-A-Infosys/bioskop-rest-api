@@ -1,7 +1,7 @@
 package com.teamc.bioskop.DTO;
 
 import com.teamc.bioskop.Model.Films;
-import com.teamc.bioskop.Model.StatusFilms;
+import com.teamc.bioskop.Model.Enum.StatusFilms;
 import lombok.*;
 
 @Getter

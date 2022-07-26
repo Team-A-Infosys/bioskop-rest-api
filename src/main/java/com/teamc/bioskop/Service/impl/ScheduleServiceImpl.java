@@ -1,8 +1,9 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Schedule;
 import com.teamc.bioskop.Repository.ScheduleRepository;
+import com.teamc.bioskop.Service.ScheduleService;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;

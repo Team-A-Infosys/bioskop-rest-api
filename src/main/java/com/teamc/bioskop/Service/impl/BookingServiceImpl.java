@@ -1,10 +1,11 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Booking;
 import com.teamc.bioskop.Model.User;
 import com.teamc.bioskop.Repository.BookingRepository;
 import com.teamc.bioskop.Repository.UserRepository;
+import com.teamc.bioskop.Service.BookingService;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
