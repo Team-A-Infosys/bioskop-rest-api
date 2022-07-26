@@ -1,7 +1,7 @@
 package com.teamc.bioskop.Service;
 
 import com.teamc.bioskop.Model.Seats;
-import com.teamc.bioskop.Model.StatusSeats;
+import com.teamc.bioskop.Model.Enum.StatusSeats;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

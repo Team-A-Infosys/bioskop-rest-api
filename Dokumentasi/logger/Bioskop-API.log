@@ -1,0 +1,72 @@
+2022-07-26 15:09:15:361 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:09:15:389 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:09:15:391 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:11:06:939 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:11:06:940 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:11:06:940 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:11:36:572 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:11:36:573 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=1, usr_id=22}
+2022-07-26 15:11:36:573 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:12:56:852 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:12:56:856 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:12:56:856 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:13:28:127 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:13:28:129 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:13:28:129 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:13:31:138 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:13:31:138 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:13:31:139 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:13:41:005 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:13:41:006 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=1}
+2022-07-26 15:13:41:006 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:15:17:648 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:15:17:650 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:15:17:651 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:15:27:401 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:15:27:401 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=1, usr_id=1}
+2022-07-26 15:15:27:401 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:16:52:625 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:16:52:628 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:16:52:629 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:17:32:741 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:17:32:742 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:17:32:743 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:17:55:462 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:17:55:463 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:17:55:463 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:17:59:902 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:17:59:905 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=1, usr_id=22}
+2022-07-26 15:17:59:905 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:18:21:449 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:18:21:449 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=22}
+2022-07-26 15:18:21:450 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:18:54:760 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:18:54:761 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=23}
+2022-07-26 15:18:54:761 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:21:05:190 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:21:05:192 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=23}
+2022-07-26 15:21:05:192 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:21:14:434 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:21:14:435 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:21:14:435 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:21:24:870 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:21:24:870 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=10, usr_id=23}
+2022-07-26 15:21:24:870 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:23:30:781 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:23:30:783 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:23:30:784 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:24:31:106 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:24:31:108 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=10, usr_id=23}
+2022-07-26 15:24:31:108 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:25:49:313 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:25:49:319 com.teamc.bioskop.Controller.BookingController:150 ERROR - Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
+2022-07-26 15:25:49:320 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:26:19:969 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:26:19:970 com.teamc.bioskop.Controller.BookingController:150 ERROR - Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
+2022-07-26 15:26:19:971 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:27:15:414 com.teamc.bioskop.Controller.BookingController:150 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:27:15:415 com.teamc.bioskop.Controller.BookingController:151 ERROR - Login First
+2022-07-26 15:27:15:416 com.teamc.bioskop.Controller.BookingController:152 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:27:51:620 com.teamc.bioskop.Controller.BookingController:147 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:27:51:621 com.teamc.bioskop.Controller.BookingController:148 ERROR - Login First
+2022-07-26 15:27:51:621 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger End Error ====================

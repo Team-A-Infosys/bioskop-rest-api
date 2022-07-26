@@ -4,6 +4,8 @@ import com.teamc.bioskop.Model.Films;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Service.FilmsService;
 import com.teamc.bioskop.Service.ReportPDFService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrint;
@@ -20,6 +22,9 @@ import java.util.*;
 
 @RestController
 @AllArgsConstructor
+@SecurityRequirement(name = "bearer-key")
+@Tag(name = "4. Film Controller")
+
 public class FilmsController {
 
     private static final Logger logger = LogManager.getLogger(FilmsController.class);

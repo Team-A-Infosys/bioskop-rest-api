@@ -1,7 +1,7 @@
 package com.teamc.bioskop.Model;
 
-import com.teamc.bioskop.Model.Attachment;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.teamc.bioskop.Model.Enum.StatusFilms;
 import com.teamc.bioskop.Response.FilmsResponseDTO;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

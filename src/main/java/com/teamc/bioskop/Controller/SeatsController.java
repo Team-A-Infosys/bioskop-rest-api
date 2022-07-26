@@ -3,24 +3,26 @@ package com.teamc.bioskop.Controller;
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Seats;
 import com.teamc.bioskop.Response.ResponseHandler;
-import com.teamc.bioskop.Service.SeatsService;
-import com.teamc.bioskop.Service.SeatsServiceImpl;
+import com.teamc.bioskop.Service.impl.SeatsServiceImpl;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
 import java.util.*;
 
 @RestController
 @AllArgsConstructor
+@SecurityRequirement(name = "bearer-key")
+@Tag(name = "5. Seat Controller")
+
 public class SeatsController {
 
     private static final Logger logger = LogManager.getLogger(SeatsController.class);
@@ -105,7 +107,7 @@ public class SeatsController {
      * UPDATE BY ID
      */
     @PutMapping("/dashboard/update/seats/{seatId}")
-    public ResponseEntity<Object> updateSeats(@PathVariable(value = "seatId") Long seatId, @Valid @RequestBody Seats seatsDetails) {
+    public ResponseEntity<Object> updateSeats(@PathVariable(value = "seatId") Long seatId, @RequestBody Seats seatsDetails) {
         try {
             Seats seat = seatsService.findbyid(seatId).orElseThrow(() ->
                     new ResourceNotFoundException("seats not exit with Seats_number:" + seatsDetails));

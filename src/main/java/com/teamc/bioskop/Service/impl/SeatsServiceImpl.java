@@ -1,9 +1,10 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Seats;
-import com.teamc.bioskop.Model.StatusSeats;
+import com.teamc.bioskop.Model.Enum.StatusSeats;
 import com.teamc.bioskop.Repository.SeatsRepository;
+import com.teamc.bioskop.Service.SeatsService;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;

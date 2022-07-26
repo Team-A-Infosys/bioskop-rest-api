@@ -9,6 +9,8 @@ import com.teamc.bioskop.Response.BookingResponsePost;
 import com.teamc.bioskop.Response.ResponseHandler;
 import com.teamc.bioskop.Service.BookingService;
 import com.teamc.bioskop.Service.ReportPDFBookingService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrint;
@@ -16,9 +18,13 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.net.http.HttpRequest;
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -26,6 +32,9 @@ import java.util.stream.Collectors;
 
 @RestController
 @AllArgsConstructor
+@SecurityRequirement(name = "bearer-key")
+@Tag(name = "6. Booking Controller")
+
 public class BookingController {
 
     private static final Logger logger = LogManager.getLogger(BookingController.class);
@@ -123,13 +132,12 @@ public class BookingController {
      * throws ResourceNotFoundException if bad request happened
      */
     @PostMapping("/booking")
-    public ResponseEntity<Object> bookingCreate(@RequestBody BookingRequestDTO bookingRequestDTO) {
+    public ResponseEntity<Object> bookingCreate(@RequestBody BookingRequestDTO bookingRequestDTO
+            , Authentication authentication) {
         try {
-            if (bookingRequestDTO.getSch() == null || bookingRequestDTO.getUsr() == null) {
-                throw new ResourceNotFoundException("Booking must have schedule id and user id");
-            }
+
             Booking booking = bookingRequestDTO.covertToEntitiy();
-            bookingService.createBooking(booking);
+            bookingService.createBooking(booking, authentication);
             BookingResponsePost result = booking.convertToResponsePost();
             logger.info(Line + " Logger Start Create Booking " + Line);
             logger.info("Create Booking : " + result);

@@ -1,4 +1,4 @@
-package com.teamc.bioskop.Service;
+package com.teamc.bioskop.Service.impl;
 
 import java.util.*;
 
@@ -8,6 +8,7 @@ import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.User;
 import com.teamc.bioskop.Repository.RoleRepository;
 import com.teamc.bioskop.Repository.UserRepository;
+import com.teamc.bioskop.Service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -32,6 +33,9 @@ public class UserServiceImplements implements UserService, UserDetailsService {
     private final RoleRepository roleRepository;
 
     private final PasswordEncoder passwordEncoder;
+
+    Collection<Role> roles = new ArrayList<>();
+
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -97,6 +101,11 @@ public class UserServiceImplements implements UserService, UserDetailsService {
      */
     public User createUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        if (user.getRoles().isEmpty()){
+            Role role = this.roleRepository.findByName("ROLE_USER");
+            roles.add(role);
+            user.setRoles(roles);
+        }
         return this.userRepository.save(user);
     }
 
