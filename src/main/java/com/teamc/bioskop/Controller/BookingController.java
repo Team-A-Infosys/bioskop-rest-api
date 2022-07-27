@@ -14,8 +14,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrint;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -133,11 +133,11 @@ public class BookingController {
      */
     @PostMapping("/booking")
     public ResponseEntity<Object> bookingCreate(@RequestBody BookingRequestDTO bookingRequestDTO
-            , Authentication authentication) {
+            , Principal principal, Authentication authentication) {
         try {
 
             Booking booking = bookingRequestDTO.covertToEntitiy();
-            bookingService.createBooking(booking, authentication);
+            bookingService.createBooking(booking, principal);
             BookingResponsePost result = booking.convertToResponsePost();
             logger.info(Line + " Logger Start Create Booking " + Line);
             logger.info("Create Booking : " + result);

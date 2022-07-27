@@ -2,8 +2,10 @@ package com.teamc.bioskop.Service.impl;
 
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Booking;
+import com.teamc.bioskop.Model.Role;
 import com.teamc.bioskop.Model.User;
 import com.teamc.bioskop.Repository.BookingRepository;
+import com.teamc.bioskop.Repository.RoleRepository;
 import com.teamc.bioskop.Repository.UserRepository;
 import com.teamc.bioskop.Service.BookingService;
 import lombok.AllArgsConstructor;
@@ -17,8 +19,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
 import java.net.http.HttpRequest;
+import java.security.Principal;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,6 +33,7 @@ public class BookingServiceImpl implements BookingService {
     private BookingRepository bookingRepository;
 
     private UserRepository userRepository;
+    private RoleRepository roleRepository;
 
 
     @Override
@@ -66,21 +71,24 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
-    public Booking createBooking(Booking booking, Authentication authentication) {
+    public Booking createBooking(Booking booking, Principal principal) {
+        // Can Use Authentication on parameter, then String username = authentication.getName();
+        // If using authentication, so we can get authorities from the user
 
-        if (authentication == null){
+        String username = principal.getName();
+        User user = this.userRepository.findByUsername(username);
+
+//        booking.setCreatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
+//        booking.setUpdatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
+
+        if (principal == null){
             throw new ResourceNotFoundException("Login First");
         }
-
         if (booking.getUser() == null){
-            String username = authentication.getName();
-            User user = this.userRepository.findByUsername(username);
             booking.setUser(user);
+        } else if(!(user.getRoles().contains(this.roleRepository.findByName("ROLE_ADMIN")))) {
+            throw new ResourceNotFoundException("Not authenticated as an admin");
         }
-
-
-        booking.setCreatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
-        booking.setUpdatedAt(ZonedDateTime.now(ZoneId.of("Asia/Tokyo")));
         return this.bookingRepository.save(booking);
     }
 
