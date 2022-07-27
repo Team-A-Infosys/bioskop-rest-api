@@ -19,8 +19,7 @@ import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 
 import java.util.List;
 
-import static org.springframework.http.HttpMethod.GET;
-import static org.springframework.http.HttpMethod.POST;
+import static org.springframework.http.HttpMethod.*;
 import static org.springframework.security.config.http.SessionCreationPolicy.*;
 
 @Configuration
@@ -44,8 +43,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().disable();
         http.sessionManagement().sessionCreationPolicy(STATELESS);
         http.authorizeRequests().antMatchers("/login/**", "/token/refresh/**","/swagger-ui/**").permitAll();
-        http.authorizeRequests().antMatchers(GET, "/dashboard/**").hasAnyAuthority("ROLE_ADMIN", "ROLE_SUPER_ADMIN");
+        http.authorizeRequests().antMatchers(GET, "/dashboard/**").hasAnyAuthority("ROLE_ADMIN");
         http.authorizeRequests().antMatchers(POST, "/dashboard/**").hasAnyAuthority("ROLE_ADMIN");
+        http.authorizeRequests().antMatchers(PUT, "/dashboard/**").hasAnyAuthority("ROLE_ADMIN");
+        http.authorizeRequests().antMatchers(DELETE, "/dashboard/**").hasAnyAuthority("ROLE_ADMIN");
 //        http.authorizeRequests().anyRequest().authenticated();
         http.addFilter(customAuthenticationFilter);
         http.addFilterBefore(new CustomAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);

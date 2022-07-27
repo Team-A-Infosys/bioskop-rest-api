@@ -172,33 +172,20 @@ public class UserController {
      * @param userDetails
      * @return
      */
-    @PutMapping("/dashboard/user/{users_Id}")
-    public ResponseEntity<Object> updateUser(@PathVariable Long users_Id, @RequestBody User userDetails) {
-        try {
-            User user = userServiceImplements.getUserById(users_Id)
-                    .orElseThrow(() -> new ResourceNotFoundException("User not exist with user_Id :" + users_Id));
+    @PutMapping("/dashboard/user")
+    public ResponseEntity<Object> updateUser(Authentication authentication, @RequestBody User userDetails) {
 
-            user.setUsername(userDetails.getUsername());
-            user.setEmailId(userDetails.getEmailId());
-            user.setPassword(userDetails.getPassword());
-            User updatedUser = userRepository.save(user);
 
             logger.info("==================== Logger Start Update Users ====================");
             logger.info("User Data Successfully Updated !");
-            logger.info("ID       : " + user.getUserId());
-            logger.info("Username : " + user.getUsername());
-            logger.info("Email    : " + user.getEmailId());
-            logger.info("Password : " + user.getPassword());
+            logger.info("ID       : " + userDetails.getUserId());
+            logger.info("Username : " + userDetails.getUsername());
+            logger.info("Email    : " + userDetails.getEmailId());
+            logger.info("Password : " + userDetails.getPassword());
             logger.info("==================== Logger End Update Users   ====================");
             logger.info(" ");
-            return ResponseHandler.generateResponse("Successfully Updated User!", HttpStatus.OK, user);
-        } catch (Exception e) {
-            logger.info("==================== Logger Start Update Users     ====================");
-            logger.error(ResponseHandler.generateResponse(e.getMessage(), HttpStatus.NOT_FOUND, "Data Not Found!"));
-            logger.info("==================== Logger End Update Users     ====================");
-            logger.info(" ");
-            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.NOT_FOUND, "Data Not Found!");
-        }
+            return ResponseHandler.generateResponse("Successfully Updated User!", HttpStatus.OK, this.userServiceImplements.updateUser(userDetails, authentication));
+
 
     }
 

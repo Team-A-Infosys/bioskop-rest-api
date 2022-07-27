@@ -1,0 +1,1082 @@
+2022-07-27 21:42:51:176 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 21:42:51:177 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 21:42:51:177 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 21:42:51:178 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : bapuk
+2022-07-27 21:42:51:178 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : bapuk@gmail.com
+2022-07-27 21:42:51:178 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : bapukbapuk
+2022-07-27 21:42:51:179 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 21:42:51:179 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 21:47:44:103 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 21:47:44:104 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 21:47:44:104 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 53
+2022-07-27 21:47:44:104 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : harist
+2022-07-27 21:47:44:105 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : harist@gmail.com
+2022-07-27 21:47:44:105 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 21:47:44:105 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 21:47:44:105 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 21:48:50:246 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 21:48:50:247 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 21:48:50:247 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : 0
+2022-07-27 21:48:50:247 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 21:48:50:248 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : ade@gmail.com
+2022-07-27 21:48:50:248 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : adelucu
+2022-07-27 21:48:50:248 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 21:48:50:248 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 21:48:50:261 com.teamc.bioskop.Controller.UserController:189 INFO  - ==================== Logger Start Update Users     ====================
+2022-07-27 21:48:50:261 com.teamc.bioskop.Controller.UserController:190 ERROR - <404 NOT_FOUND Not Found,{data=Data Not Found!, message=Error accessing field [private java.lang.Long com.teamc.bioskop.Model.Role.id] by reflection for persistent property [com.teamc.bioskop.Model.Role#id] : ROLE_USER; nested exception is org.hibernate.property.access.spi.PropertyAccessException: Error accessing field [private java.lang.Long com.teamc.bioskop.Model.Role.id] by reflection for persistent property [com.teamc.bioskop.Model.Role#id] : ROLE_USER, status=404},[]>
+2022-07-27 21:48:50:262 com.teamc.bioskop.Controller.UserController:191 INFO  - ==================== Logger End Update Users     ====================
+2022-07-27 21:48:50:262 com.teamc.bioskop.Controller.UserController:192 INFO  -  
+2022-07-27 21:48:56:659 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 21:48:56:659 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 21:48:56:660 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 21:48:56:660 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 21:48:56:660 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : ade@gmail.com
+2022-07-27 21:48:56:660 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : adelucu
+2022-07-27 21:48:56:661 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 21:48:56:661 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 21:48:56:664 com.teamc.bioskop.Controller.UserController:189 INFO  - ==================== Logger Start Update Users     ====================
+2022-07-27 21:48:56:665 com.teamc.bioskop.Controller.UserController:190 ERROR - <404 NOT_FOUND Not Found,{data=Data Not Found!, message=Error accessing field [private java.lang.Long com.teamc.bioskop.Model.Role.id] by reflection for persistent property [com.teamc.bioskop.Model.Role#id] : ROLE_USER; nested exception is org.hibernate.property.access.spi.PropertyAccessException: Error accessing field [private java.lang.Long com.teamc.bioskop.Model.Role.id] by reflection for persistent property [com.teamc.bioskop.Model.Role#id] : ROLE_USER, status=404},[]>
+2022-07-27 21:48:56:665 com.teamc.bioskop.Controller.UserController:191 INFO  - ==================== Logger End Update Users     ====================
+2022-07-27 21:48:56:665 com.teamc.bioskop.Controller.UserController:192 INFO  -  
+2022-07-27 21:50:58:323 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 21:50:58:324 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 21:50:58:325 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 21:50:58:325 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 21:50:58:325 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : ade@gmail.com
+2022-07-27 21:50:58:325 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : adelucu
+2022-07-27 21:50:58:325 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 21:50:58:325 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 21:54:18:380 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 21:54:18:382 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 21:54:18:383 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 54
+2022-07-27 21:54:18:384 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : viona
+2022-07-27 21:54:18:384 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : viona@gmail.com
+2022-07-27 21:54:18:385 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 21:54:18:385 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 21:54:18:386 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 21:55:24:457 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 21:55:24:457 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 21:55:24:457 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 21:55:24:457 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 21:55:24:457 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 21:55:24:457 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 21:55:24:459 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 21:55:24:459 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 21:57:52:105 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 21:57:52:106 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 21:57:52:107 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 55
+2022-07-27 21:57:52:107 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : viona
+2022-07-27 21:57:52:108 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : viona@gmail.com
+2022-07-27 21:57:52:108 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 21:57:52:109 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 21:57:52:109 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 21:59:30:796 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 21:59:30:796 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 21:59:30:797 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 21:59:30:797 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : vionski
+2022-07-27 21:59:30:797 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : vionski@gmail.com
+2022-07-27 21:59:30:797 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : 12345
+2022-07-27 21:59:30:798 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 21:59:30:798 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:02:47:285 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:02:47:286 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:02:47:287 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:02:47:287 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 22:02:47:287 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:02:47:288 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:02:47:288 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:02:47:288 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:02:47:311 com.teamc.bioskop.Controller.UserController:189 INFO  - ==================== Logger Start Update Users     ====================
+2022-07-27 22:02:47:313 com.teamc.bioskop.Controller.UserController:190 ERROR - <404 NOT_FOUND Not Found,{data=Data Not Found!, message=Cannot invoke "com.teamc.bioskop.Model.User.getUserId()" because "userAuth" is null, status=404},[]>
+2022-07-27 22:02:47:314 com.teamc.bioskop.Controller.UserController:191 INFO  - ==================== Logger End Update Users     ====================
+2022-07-27 22:02:47:314 com.teamc.bioskop.Controller.UserController:192 INFO  -  
+2022-07-27 22:04:10:137 com.teamc.bioskop.Controller.LoginController:106 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-27 22:04:10:137 com.teamc.bioskop.Controller.LoginController:107 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=query did not return a unique result: 6; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 6, status=400},[]>
+2022-07-27 22:04:10:137 com.teamc.bioskop.Controller.LoginController:108 INFO  - ==================== Logger End Create Users     ====================
+2022-07-27 22:04:10:137 com.teamc.bioskop.Controller.LoginController:109 INFO  -  
+2022-07-27 22:04:15:732 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 22:04:15:732 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 22:04:15:732 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 56
+2022-07-27 22:04:15:732 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : string123
+2022-07-27 22:04:15:733 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : string@gmail.com
+2022-07-27 22:04:15:733 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 22:04:15:733 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 22:04:15:733 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 22:04:57:213 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:04:57:213 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:04:57:213 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:04:57:213 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 22:04:57:214 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:04:57:214 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:04:57:214 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:04:57:214 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:04:57:217 com.teamc.bioskop.Controller.UserController:189 INFO  - ==================== Logger Start Update Users     ====================
+2022-07-27 22:04:57:217 com.teamc.bioskop.Controller.UserController:190 ERROR - <404 NOT_FOUND Not Found,{data=Data Not Found!, message=Cannot invoke "String.isEmpty()" because the return value of "com.teamc.bioskop.Model.User.getEmailId()" is null, status=404},[]>
+2022-07-27 22:04:57:218 com.teamc.bioskop.Controller.UserController:191 INFO  - ==================== Logger End Update Users     ====================
+2022-07-27 22:04:57:218 com.teamc.bioskop.Controller.UserController:192 INFO  -  
+2022-07-27 22:05:54:625 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:05:54:626 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:05:54:628 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:05:54:628 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 22:05:54:628 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:05:54:629 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:05:54:629 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:05:54:629 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:07:11:836 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:07:11:837 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:07:11:837 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:07:11:837 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 22:07:11:838 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:07:11:838 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:07:11:838 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:07:11:838 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:07:12:063 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:07:12:063 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:07:12:064 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:07:12:064 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas ade
+2022-07-27 22:07:12:064 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:07:12:064 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:07:12:064 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:07:12:065 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:08:09:829 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:08:09:829 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:08:09:830 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:08:09:830 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : string
+2022-07-27 22:08:09:830 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : string
+2022-07-27 22:08:09:830 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : string
+2022-07-27 22:08:09:830 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:08:09:831 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:08:23:755 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:08:23:755 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:08:23:755 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:08:23:755 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : stringlucu
+2022-07-27 22:08:23:756 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:08:23:756 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : string
+2022-07-27 22:08:23:756 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:08:23:756 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:09:53:569 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 22:09:53:570 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 22:09:53:571 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 57
+2022-07-27 22:09:53:572 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : string123
+2022-07-27 22:09:53:572 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : string@gmail.com
+2022-07-27 22:09:53:572 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 22:09:53:573 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 22:09:53:573 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 22:10:19:196 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:10:19:196 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:10:19:197 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:10:19:197 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : stringlucu
+2022-07-27 22:10:19:197 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:10:19:198 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : string
+2022-07-27 22:10:19:198 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:10:19:198 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:13:03:984 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:13:03:986 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:13:03:990 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:13:03:991 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : stringlucu
+2022-07-27 22:13:03:991 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : stringlcu@gmail.com
+2022-07-27 22:13:03:992 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : string
+2022-07-27 22:13:03:992 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:13:03:992 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:15:04:064 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:15:04:067 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:15:04:068 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:15:04:069 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : stringlucu
+2022-07-27 22:15:04:070 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : stringlcu@gmail.com
+2022-07-27 22:15:04:070 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:15:04:071 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:15:04:071 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:15:40:485 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:15:40:485 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:15:40:485 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:15:40:486 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : stringlucu123123
+2022-07-27 22:15:40:486 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:15:40:486 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:15:40:486 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:15:40:487 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:17:56:227 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 22:17:56:228 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 22:17:56:229 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 58
+2022-07-27 22:17:56:230 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : stringlucubanget
+2022-07-27 22:17:56:230 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : stringlucubanget@gmail.com
+2022-07-27 22:17:56:230 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 22:17:56:231 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 22:17:56:231 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 22:18:50:341 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:18:50:342 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:18:50:343 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:18:50:343 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : viona
+2022-07-27 22:18:50:343 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:18:50:343 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:18:50:343 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:18:50:343 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:21:08:664 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 22:21:08:666 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 22:21:08:667 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 59
+2022-07-27 22:21:08:667 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : harist
+2022-07-27 22:21:08:667 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : harist@gmail.com
+2022-07-27 22:21:08:667 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 22:21:08:667 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 22:21:08:668 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 22:21:42:652 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:21:42:652 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:21:42:653 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:21:42:653 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : habib
+2022-07-27 22:21:42:653 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:21:42:653 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:21:42:654 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:21:42:654 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:24:04:449 com.teamc.bioskop.Controller.LoginController:106 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-27 22:24:04:452 com.teamc.bioskop.Controller.LoginController:107 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Username has been taken, status=400},[]>
+2022-07-27 22:24:04:453 com.teamc.bioskop.Controller.LoginController:108 INFO  - ==================== Logger End Create Users     ====================
+2022-07-27 22:24:04:453 com.teamc.bioskop.Controller.LoginController:109 INFO  -  
+2022-07-27 22:24:14:023 com.teamc.bioskop.Controller.LoginController:90 INFO  - ==================== Logger Start Create Users ====================
+2022-07-27 22:24:14:023 com.teamc.bioskop.Controller.LoginController:91 INFO  - User Successfully Created !
+2022-07-27 22:24:14:023 com.teamc.bioskop.Controller.LoginController:92 INFO  - ID       : 60
+2022-07-27 22:24:14:024 com.teamc.bioskop.Controller.LoginController:93 INFO  - Username : hasnul
+2022-07-27 22:24:14:024 com.teamc.bioskop.Controller.LoginController:94 INFO  - Email    : hasnul@gmail.com
+2022-07-27 22:24:14:024 com.teamc.bioskop.Controller.LoginController:95 INFO  - Role     :[Role(id=2, name=ROLE_USER)]
+2022-07-27 22:24:14:024 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger End Create Users   ====================
+2022-07-27 22:24:14:025 com.teamc.bioskop.Controller.LoginController:103 INFO  -  
+2022-07-27 22:25:48:538 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:25:48:540 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:25:48:540 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:25:48:541 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : mas roger
+2022-07-27 22:25:48:541 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:25:48:541 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:25:48:541 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:25:48:541 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:27:14:916 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:27:14:916 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:27:14:916 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:27:14:916 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : null
+2022-07-27 22:27:14:917 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:27:14:917 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:27:14:917 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:27:14:917 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:27:58:526 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:27:58:526 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:27:58:526 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:27:58:527 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : null
+2022-07-27 22:27:58:527 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:27:58:527 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:27:58:527 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:27:58:527 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:29:20:997 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:29:20:999 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:29:20:999 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:29:20:999 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : null
+2022-07-27 22:29:21:000 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : null
+2022-07-27 22:29:21:000 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:29:21:000 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:29:21:000 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:29:52:279 com.teamc.bioskop.Controller.UserController:179 INFO  - ==================== Logger Start Update Users ====================
+2022-07-27 22:29:52:280 com.teamc.bioskop.Controller.UserController:180 INFO  - User Data Successfully Updated !
+2022-07-27 22:29:52:280 com.teamc.bioskop.Controller.UserController:181 INFO  - ID       : null
+2022-07-27 22:29:52:280 com.teamc.bioskop.Controller.UserController:182 INFO  - Username : null
+2022-07-27 22:29:52:280 com.teamc.bioskop.Controller.UserController:183 INFO  - Email    : hasnul@gmail.com
+2022-07-27 22:29:52:281 com.teamc.bioskop.Controller.UserController:184 INFO  - Password : null
+2022-07-27 22:29:52:281 com.teamc.bioskop.Controller.UserController:185 INFO  - ==================== Logger End Update Users   ====================
+2022-07-27 22:29:52:281 com.teamc.bioskop.Controller.UserController:186 INFO  -  
+2022-07-27 22:31:54:953 com.teamc.bioskop.Controller.ScheduleController:48 INFO  - ============================================================Logger Start Find All Schedule============================================================
+2022-07-27 22:31:54:954 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:955 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :2
+2022-07-27 22:31:54:957 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=2, name='Naruto', isPlaying=NOT_PLAYING}
+2022-07-27 22:31:54:961 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=2, seatNumber=2, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:961 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:963 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:963 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :3
+2022-07-27 22:31:54:964 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=3, name='One Piece', isPlaying=PLAYING}
+2022-07-27 22:31:54:964 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=3, seatNumber=3, studioName='Studio A', isAvailable=NOT_AVAILABLE}
+2022-07-27 22:31:54:964 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:965 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:965 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :4
+2022-07-27 22:31:54:965 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=4, name='Mortal Combat', isPlaying=PLAYING}
+2022-07-27 22:31:54:965 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=4, seatNumber=4, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:966 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:966 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:966 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :5
+2022-07-27 22:31:54:966 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=5, name='P MAN', isPlaying=NOT_PLAYING}
+2022-07-27 22:31:54:967 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=5, seatNumber=5, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:967 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:967 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:967 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :6
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=6, name='Chalkzone', isPlaying=PLAYING}
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=6, seatNumber=6, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :7
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=7, name='Inception', isPlaying=PLAYING}
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=7, seatNumber=7, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:968 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:969 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:969 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :8
+2022-07-27 22:31:54:969 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=8, name='Terminator', isPlaying=PLAYING}
+2022-07-27 22:31:54:969 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=8, seatNumber=8, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:969 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:969 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :9
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=9, name='Transformer', isPlaying=PLAYING}
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=9, seatNumber=9, studioName='Studio A', isAvailable=NOT_AVAILABLE}
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :10
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=10, name='Ms. Marvel', isPlaying=PLAYING}
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=10, seatNumber=10, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:970 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:971 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:971 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :11
+2022-07-27 22:31:54:971 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=11, name='Thor Love And Thunder', isPlaying=PLAYING}
+2022-07-27 22:31:54:971 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=1, seatNumber=1, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:971 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:971 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:972 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :12
+2022-07-27 22:31:54:972 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=11, name='Thor Love And Thunder', isPlaying=PLAYING}
+2022-07-27 22:31:54:972 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=10, seatNumber=10, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:972 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:972 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:972 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :1
+2022-07-27 22:31:54:973 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=2, name='Naruto', isPlaying=NOT_PLAYING}
+2022-07-27 22:31:54:973 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=1, seatNumber=1, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:973 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:973 com.teamc.bioskop.Controller.ScheduleController:51 INFO  - ================================
+2022-07-27 22:31:54:974 com.teamc.bioskop.Controller.ScheduleController:55 INFO  - Schedule id :13
+2022-07-27 22:31:54:974 com.teamc.bioskop.Controller.ScheduleController:56 INFO  - Film :Films{filmId=9, name='Transformer', isPlaying=PLAYING}
+2022-07-27 22:31:54:974 com.teamc.bioskop.Controller.ScheduleController:57 INFO  - Seats :Seats{seatId=1, seatNumber=1, studioName='Studio A', isAvailable=AVAILABLE}
+2022-07-27 22:31:54:974 com.teamc.bioskop.Controller.ScheduleController:58 INFO  - ================================
+2022-07-27 22:31:54:975 com.teamc.bioskop.Controller.ScheduleController:62 INFO  - ============================================================Logger End Find All Schedule============================================================
+2022-07-27 22:32:13:713 com.teamc.bioskop.Controller.FilmsController:158 INFO  - ==================== Logger Start Get All Films ====================
+2022-07-27 22:32:13:713 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:713 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Mortal Combat
+2022-07-27 22:32:13:713 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:713 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Chalkzone
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Inception
+2022-07-27 22:32:13:714 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Terminator
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Transformer
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Ms. Marvel
+2022-07-27 22:32:13:716 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:717 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:717 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:717 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Thor Love And Thunder
+2022-07-27 22:32:13:717 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:717 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:717 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:718 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: One Piece
+2022-07-27 22:32:13:718 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:719 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:719 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:719 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Moon Knight
+2022-07-27 22:32:13:719 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:719 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:719 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Key And Peele Comedy Central
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Spiderman No Way Home
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:720 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:721 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:721 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Doctor Strange Multiverse of Madness
+2022-07-27 22:32:13:722 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:722 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:722 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:722 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Doraemon
+2022-07-27 22:32:13:722 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:722 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:723 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:723 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: test
+2022-07-27 22:32:13:723 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:723 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:723 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:723 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: koe
+2022-07-27 22:32:13:724 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:724 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:724 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:724 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: koe
+2022-07-27 22:32:13:724 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:724 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:725 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:725 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: koe
+2022-07-27 22:32:13:725 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:725 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:725 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:725 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: aowek
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: oawkeoak
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:726 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:727 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: awe
+2022-07-27 22:32:13:727 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:727 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:727 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:727 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: oawka
+2022-07-27 22:32:13:727 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: woakeoakweo
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:728 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: qweeqw
+2022-07-27 22:32:13:729 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:729 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:729 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:729 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: Doraemon1
+2022-07-27 22:32:13:729 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:729 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:730 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:730 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: 1
+2022-07-27 22:32:13:730 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:730 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:730 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: rwfesf
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: awkeoake
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:731 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:732 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:732 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: oakdoa
+2022-07-27 22:32:13:732 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:732 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:732 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:732 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: 1324
+2022-07-27 22:32:13:733 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:733 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:733 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:733 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: awkeoakwoe
+2022-07-27 22:32:13:733 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:734 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:734 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:734 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: 324o0
+2022-07-27 22:32:13:734 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:734 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:734 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:735 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: ok
+2022-07-27 22:32:13:735 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:735 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:735 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:735 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: asdadsa
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: asdasdadasdjoaads
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: NARUTO
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:736 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: oooo
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:161 INFO  - ====================
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:163 INFO  - Judul: asd
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:165 INFO  - Status Film: PLAYING
+2022-07-27 22:32:13:737 com.teamc.bioskop.Controller.FilmsController:166 INFO  - ====================
+2022-07-27 22:32:13:738 com.teamc.bioskop.Controller.FilmsController:169 INFO  - ==================== Logger End Get All Films ====================
+2022-07-27 22:32:27:855 com.teamc.bioskop.Controller.FilmsController:47 INFO  - ==================== Logger Start Get All Films ====================
+2022-07-27 22:32:27:855 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:856 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Mortal Combat
+2022-07-27 22:32:27:856 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:856 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: P MAN
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: NOT_PLAYING
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Chalkzone
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Inception
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:857 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:858 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:858 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Terminator
+2022-07-27 22:32:27:858 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:858 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:859 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:859 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Transformer
+2022-07-27 22:32:27:859 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:859 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:859 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:860 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Ms. Marvel
+2022-07-27 22:32:27:860 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:860 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:860 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:860 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Thor Love And Thunder
+2022-07-27 22:32:27:860 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: One Piece
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Moon Knight
+2022-07-27 22:32:27:861 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Key And Peele Comedy Central
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Ninja Turtles Teenage Mutant
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: NOT_PLAYING
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:862 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:863 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Spiderman No Way Home
+2022-07-27 22:32:27:863 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:863 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:863 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:863 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Doctor Strange Multiverse of Madness
+2022-07-27 22:32:27:863 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Doraemon
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: BINAR ACADEMY
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: NOT_PLAYING
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:864 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:865 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: test
+2022-07-27 22:32:27:865 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:865 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:865 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:865 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: koe
+2022-07-27 22:32:27:865 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: koe
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:866 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: koe
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: aowek
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:867 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: oawkeoak
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: awe
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: oawka
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:868 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: woakeoakweo
+2022-07-27 22:32:27:869 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:869 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:869 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:869 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: qweeqw
+2022-07-27 22:32:27:869 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:870 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:870 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:870 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Doraemon1
+2022-07-27 22:32:27:870 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:870 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:871 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:871 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: 1
+2022-07-27 22:32:27:871 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:871 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:871 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:871 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: rwfesf
+2022-07-27 22:32:27:872 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:872 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:872 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:872 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: awkeoake
+2022-07-27 22:32:27:872 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:872 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:873 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:873 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: oakdoa
+2022-07-27 22:32:27:873 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:873 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:873 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:873 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: 1324
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: awkeoakwoe
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: 324o0
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:874 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: ok
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: asdadsa
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: asdasdadasdjoaads
+2022-07-27 22:32:27:875 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: NARUTO
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: oooo
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: asd
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: PLAYING
+2022-07-27 22:32:27:876 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:877 com.teamc.bioskop.Controller.FilmsController:50 INFO  - ====================
+2022-07-27 22:32:27:877 com.teamc.bioskop.Controller.FilmsController:52 INFO  - Judul: Naruto
+2022-07-27 22:32:27:877 com.teamc.bioskop.Controller.FilmsController:54 INFO  - Status Film: NOT_PLAYING
+2022-07-27 22:32:27:878 com.teamc.bioskop.Controller.FilmsController:55 INFO  - ====================
+2022-07-27 22:32:27:878 com.teamc.bioskop.Controller.FilmsController:58 INFO  - ==================== Logger End Get All Films ====================
+2022-07-27 22:32:45:058 com.teamc.bioskop.Controller.FilmsController:75 INFO  - ==================== Logger Start SearchById ====================
+2022-07-27 22:32:45:058 com.teamc.bioskop.Controller.FilmsController:76 INFO  - Optional[Films{filmId=1, name='Doraemon', isPlaying=PLAYING}]
+2022-07-27 22:32:45:058 com.teamc.bioskop.Controller.FilmsController:77 INFO  - ==================== Logger End SearchById ====================
+2022-07-27 22:33:01:068 com.teamc.bioskop.Controller.SeatsController:185 INFO  - ==================== Logger Start Get Available Seat     ====================
+2022-07-27 22:33:01:068 com.teamc.bioskop.Controller.SeatsController:186 ERROR - <404 NOT_FOUND Not Found,{data=Table Has No Value!, message=could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet, status=404},[]>
+2022-07-27 22:33:01:069 com.teamc.bioskop.Controller.SeatsController:187 INFO  - ==================== Logger End Get Available Seat     ====================
+2022-07-27 22:33:50:487 com.teamc.bioskop.Controller.SeatsController:41 INFO  - ============================================================ Logger Start Get All Films ============================================================
+2022-07-27 22:33:50:488 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:489 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 1
+2022-07-27 22:33:50:489 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:489 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:489 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:489 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 2
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 3
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 4
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 5
+2022-07-27 22:33:50:490 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 6
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 7
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:491 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 8
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 9
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 10
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:492 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 11
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 12
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:493 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 13
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 14
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 15
+2022-07-27 22:33:50:494 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 16
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 17
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 18
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:495 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 19
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 20
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 1
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:496 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 2
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 3
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 4
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 5
+2022-07-27 22:33:50:497 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 6
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 7
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 8
+2022-07-27 22:33:50:498 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 9
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 10
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 11
+2022-07-27 22:33:50:499 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 12
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 13
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 14
+2022-07-27 22:33:50:500 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 15
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 16
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 17
+2022-07-27 22:33:50:501 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 18
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 19
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 20
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio B
+2022-07-27 22:33:50:502 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 1
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 2
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 3
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:503 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 4
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 5
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:504 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 6
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 7
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 8
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:505 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 9
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 10
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 11
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 12
+2022-07-27 22:33:50:506 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 13
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 14
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 15
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:507 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 16
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 17
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 18
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 19
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:508 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 20
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio C
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 1
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 2
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:509 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 3
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 4
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:510 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 5
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 6
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 7
+2022-07-27 22:33:50:511 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 8
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 9
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:512 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 10
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 11
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 12
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:513 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 13
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 14
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 15
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:514 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 16
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 17
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:515 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 18
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 19
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 20
+2022-07-27 22:33:50:516 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio D
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: AVAILABLE
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:44 INFO  - ============================================================
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:46 INFO  - No Kursi: 999
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:48 INFO  - Studio: Studio A
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:50 INFO  - Available: NOT_AVAILABLE
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:51 INFO  - ============================================================
+2022-07-27 22:33:50:517 com.teamc.bioskop.Controller.SeatsController:54 INFO  - ============================================================ Logger END Get All Films ============================================================
+2022-07-27 22:34:03:924 com.teamc.bioskop.Controller.SeatsController:185 INFO  - ==================== Logger Start Get Available Seat     ====================
+2022-07-27 22:34:03:924 com.teamc.bioskop.Controller.SeatsController:186 ERROR - <404 NOT_FOUND Not Found,{data=Table Has No Value!, message=could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet, status=404},[]>
+2022-07-27 22:34:03:924 com.teamc.bioskop.Controller.SeatsController:187 INFO  - ==================== Logger End Get Available Seat     ====================
+2022-07-27 22:34:56:111 com.teamc.bioskop.Controller.BookingController:147 ERROR - ==================== Logger Start Error ====================
+2022-07-27 22:34:56:111 com.teamc.bioskop.Controller.BookingController:148 ERROR - Cannot invoke "java.security.Principal.getName()" because "principal" is null
+2022-07-27 22:34:56:111 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger End Error ====================

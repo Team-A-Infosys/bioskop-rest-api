@@ -103,7 +103,7 @@ public class UserServiceImplements implements UserService, UserDetailsService {
     public User createUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         if (user.getRoles().isEmpty()){
-            Role role = this.roleRepository.findByName("ROLE_USER");
+            Role role = this.roleRepository.findByName("ROLE_CUSTOMER");
             roles.add(role);
             user.setRoles(roles);
         }
@@ -142,11 +142,22 @@ public class UserServiceImplements implements UserService, UserDetailsService {
      * @return
      * @throws Exception
      */
-    public User updateUser(User user, Long userId) {
-        Optional<User> optionalUser = userRepository.findById(userId);
-        if (optionalUser == null) {
-            throw new ResourceNotFoundException("User not exist with id :" + user.getUserId());
+    public User updateUser(User user,  Authentication authentication) {
+        String username = authentication.getName();
+
+        User userAuth = this.userRepository.findByUsername(username);
+
+        user.setUserId(userAuth.getUserId());
+        user.setRoles(userAuth.getRoles());
+        user.setPassword(userAuth.getPassword());
+
+        if (user.getUsername() == null){
+            user.setUsername(userAuth.getUsername());
         }
+        else if (user.getEmailId() == null){
+            user.setEmailId(userAuth.getEmailId());
+        }
+
         return this.userRepository.save(user);
     }
 
