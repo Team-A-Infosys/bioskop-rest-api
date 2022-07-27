@@ -115,3 +115,7 @@
 2022-07-27 16:29:15:343 com.teamc.bioskop.Controller.BookingController:100 INFO  - ==================== Logger Start Get By id Booking ====================
 2022-07-27 16:29:15:344 com.teamc.bioskop.Controller.BookingController:101 INFO  - Update Booking : BookingResponseDTO{book_id=2, usr_id=2, usr_name='Vista', email_usr='mocmoc@yahoo.co.id', film_name='Mortal Combat', price=30000, studio='Studio C', status_show=PLAYING, seat_num=1, status_seat=AVAILABLE, date_film=2022-06-04, start_film=16:00, end_film=18:00}
 2022-07-27 16:29:15:345 com.teamc.bioskop.Controller.BookingController:102 INFO  - ==================== Logger End Get By id Booking ====================
+2022-07-27 20:49:08:844 com.teamc.bioskop.Controller.BookingController:128 INFO  - ==================== Logger Start Update Booking ====================
+2022-07-27 20:49:08:886 com.teamc.bioskop.Controller.BookingController:129 INFO  - Update Booking : Booking{bookingId=1, user=User{userId=3, username='Kino', emailId='kino@hyt.co.id', password='$2a$06$IduOC.NPRbBXnANXuwrOf.eUAnKI6N4B3waGSloy3p/caTeiAGZjy'}, schedule=
+ Schedule{scheduleId=2, films=Films{filmId=2, name='Naruto', isPlaying=NOT_PLAYING}, dateShow=2022-06-02, seats=Seats{seatId=2, seatNumber=1, studioName='Studio B', isAvailable=AVAILABLE}, showStart=15:00, showEnd=17:00, price=30000}}
+2022-07-27 20:49:08:887 com.teamc.bioskop.Controller.BookingController:130 INFO  - ==================== Logger End Update Booking ====================
