@@ -11,15 +11,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class BookingRequestDTO {
-    private Long id;
-    private User usr;
-    private Schedule sch;
+    private Long userId;
+    private Integer scheduleId;
 
-    public Booking covertToEntitiy() {
-        return Booking.builder()
-                .bookingId(this.id)
-                .user(this.usr)
-                .schedule(this.sch)
-                .build();
-    }
 }

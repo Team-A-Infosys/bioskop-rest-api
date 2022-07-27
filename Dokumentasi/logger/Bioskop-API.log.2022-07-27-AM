@@ -1,0 +1,382 @@
+2022-07-26 15:09:15:361 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:09:15:389 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:09:15:391 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:11:06:939 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:11:06:940 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:11:06:940 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:11:36:572 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:11:36:573 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=1, usr_id=22}
+2022-07-26 15:11:36:573 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:12:56:852 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:12:56:856 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:12:56:856 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:13:28:127 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:13:28:129 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:13:28:129 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:13:31:138 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:13:31:138 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:13:31:139 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:13:41:005 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:13:41:006 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=1}
+2022-07-26 15:13:41:006 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:15:17:648 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:15:17:650 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:15:17:651 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:15:27:401 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:15:27:401 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=1, usr_id=1}
+2022-07-26 15:15:27:401 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:16:52:625 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:16:52:628 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:16:52:629 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:17:32:741 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:17:32:742 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:17:32:743 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:17:55:462 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:17:55:463 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:17:55:463 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:17:59:902 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:17:59:905 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=1, usr_id=22}
+2022-07-26 15:17:59:905 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:18:21:449 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:18:21:449 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=22}
+2022-07-26 15:18:21:450 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:18:54:760 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:18:54:761 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=23}
+2022-07-26 15:18:54:761 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:21:05:190 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:21:05:192 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=9, usr_id=23}
+2022-07-26 15:21:05:192 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:21:14:434 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:21:14:435 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:21:14:435 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:21:24:870 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:21:24:870 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=10, usr_id=23}
+2022-07-26 15:21:24:870 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:23:30:781 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:23:30:783 com.teamc.bioskop.Controller.BookingController:150 ERROR - Booking must have schedule id and user id
+2022-07-26 15:23:30:784 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:24:31:106 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 15:24:31:108 com.teamc.bioskop.Controller.BookingController:145 INFO  - Create Booking : BookingResponsePost{book_id=0, sch_id=10, usr_id=23}
+2022-07-26 15:24:31:108 com.teamc.bioskop.Controller.BookingController:146 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 15:25:49:313 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:25:49:319 com.teamc.bioskop.Controller.BookingController:150 ERROR - Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
+2022-07-26 15:25:49:320 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:26:19:969 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:26:19:970 com.teamc.bioskop.Controller.BookingController:150 ERROR - Cannot invoke "org.springframework.security.core.Authentication.getName()" because "authentication" is null
+2022-07-26 15:26:19:971 com.teamc.bioskop.Controller.BookingController:151 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:27:15:414 com.teamc.bioskop.Controller.BookingController:150 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:27:15:415 com.teamc.bioskop.Controller.BookingController:151 ERROR - Login First
+2022-07-26 15:27:15:416 com.teamc.bioskop.Controller.BookingController:152 ERROR - ==================== Logger End Error ====================
+2022-07-26 15:27:51:620 com.teamc.bioskop.Controller.BookingController:147 ERROR - ==================== Logger Start Error ====================
+2022-07-26 15:27:51:621 com.teamc.bioskop.Controller.BookingController:148 ERROR - Login First
+2022-07-26 15:27:51:621 com.teamc.bioskop.Controller.BookingController:149 ERROR - ==================== Logger End Error ====================
+2022-07-26 17:21:05:209 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 17:21:05:217 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 17:21:05:218 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 24
+2022-07-26 17:21:05:219 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : harist
+2022-07-26 17:21:05:220 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : harist@gmail.com
+2022-07-26 17:21:05:226 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$02tHhJtvS8Z4.r9GEtLqCe/ntP4p8FSToNFhJGXXIIQuEItsWxdqu
+2022-07-26 17:21:05:227 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 17:21:05:230 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 17:49:30:782 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 17:49:30:787 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 17:49:30:788 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 25
+2022-07-26 17:49:30:789 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : timA
+2022-07-26 17:49:30:790 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : timA
+2022-07-26 17:49:30:791 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$3lHRGIP49r/L0wK8NhQ6nub0kNCXnNevNML.uIKBcDz1PnTxu12o6
+2022-07-26 17:49:30:791 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 17:49:30:792 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 17:50:28:767 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 17:50:28:768 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=User Already Exist!, message=org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role, status=400},[]>
+2022-07-26 17:50:28:769 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 17:50:28:770 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 17:50:44:995 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 17:50:44:996 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=User Already Exist!, message=org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role, status=400},[]>
+2022-07-26 17:50:44:996 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 17:50:44:996 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 17:50:57:337 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 17:50:57:338 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=User Already Exist!, message=org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role, status=400},[]>
+2022-07-26 17:50:57:339 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 17:50:57:339 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 17:51:21:523 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 17:51:21:523 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=User Already Exist!, message=org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.teamc.bioskop.Model.Role, status=400},[]>
+2022-07-26 17:51:21:524 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 17:51:21:524 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 17:51:47:548 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 17:51:47:549 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 17:51:47:550 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 30
+2022-07-26 17:51:47:550 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : timAAaaa
+2022-07-26 17:51:47:551 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : timAzzz
+2022-07-26 17:51:47:552 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$oanPdORTYsdb6.B/W.vVN.gR/dZZd9uZ/F7fwUrMgni6xSVVT3y1e
+2022-07-26 17:51:47:552 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 17:51:47:553 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 17:53:03:600 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 17:53:03:601 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 17:53:03:601 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 31
+2022-07-26 17:53:03:601 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : timAAaaa
+2022-07-26 17:53:03:602 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : timAzzz
+2022-07-26 17:53:03:602 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$cheofScXiAzwAxdlsofQYOLS3lsgot7HC8Q/Y4qA.fVJSVRXlczZe
+2022-07-26 17:53:03:602 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 17:53:03:603 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 18:07:34:483 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 18:07:34:489 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 18:07:34:491 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 32
+2022-07-26 18:07:34:494 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : TIMAOK
+2022-07-26 18:07:34:495 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : timaok@gmail.com
+2022-07-26 18:07:34:496 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$8HYcEtNb.Xdpzdllv99GYeF8KiIwuVtw8tFkVoeQpwHYqgDB3oqgG
+2022-07-26 18:07:34:497 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 18:07:34:499 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 17:46:12:847 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 17:46:12:847 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 17:46:12:847 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 47
+2022-07-26 17:46:12:855 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : team A
+2022-07-26 17:46:12:855 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : team-a@gmail.com
+2022-07-26 17:46:12:855 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$mrYDxl.XIPI/4UeVKKfwAu.Onpku5j2J3HcgRcPukWReSeF7vj0b2
+2022-07-26 17:46:12:857 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 17:46:12:857 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 17:48:29:630 com.teamc.bioskop.Controller.UserController:72 INFO  - ==================== Logger Start Get All Users     ====================
+2022-07-26 17:48:29:630 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:630 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 2
+2022-07-26 17:48:29:630 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Vista
+2022-07-26 17:48:29:636 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : mocmoc@yahoo.co.id
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : secret
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 3
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Kino
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : kino@hyt.co.id
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : q1w2e3r4
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 4
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Mindul
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : wez@email.com
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : iwjiwjra
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:637 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 5
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Ikuro
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : jisuq@yahoo.co.id
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : secret123
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 6
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : KImbepe
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : jusa@hyt.co.id
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : 728uqwe
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 7
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Poppy
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : popp@email.com
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : password333
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 8
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Imam
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : imam@email.com
+2022-07-26 17:48:29:645 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : passwor123
+2022-07-26 17:48:29:653 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:653 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 9
+2022-07-26 17:48:29:653 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Wahyu
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : wahyu@email.com
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : passwor5647
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 10
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Agung
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : agung@email.com
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : password411
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 1
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Rudi
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : email@email.com
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : 123
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 22
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : harist
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : harist@gmail.com
+2022-07-26 17:48:29:654 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$Sw26Yav88fKheQRXZuvkmu0kL4xY4T8TsXLSxvVnygtlIdRLeRRFC
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 23
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : Rudias
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : email@email.com
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$06$FYxT9LxaqvwM2UYBoEGhlOXMZc/qQTxAZN/gWX4GC6bJDShw5g5MS
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 25
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : User Baru
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : userbaru@email.com
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$06$JwraLifKU3la9bWBLEo85u9NjjHP93xwbWP7eO0WQfQC.73qpQ33C
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 36
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : baru
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : baru@gmail.com
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$3JuJGIA2oV0D9e.MzSIZyO.LyDV5K4T5hn02faoLscUXM9yefKsu.
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 37
+2022-07-26 17:48:29:662 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$YXSubHw7sXSmCKVYYyrqW.yELI11es8dy2bpNMKyLC648.gl3Zzpq
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 38
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$v3MBbMLutnhozr.A3I4MJOLrR8BqcQ0.6aVpuTOzGZHFaZ/yRs5o2
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 39
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$Y0XxGFrFt1PWR1OgCekvDewQ2qxgoYY.D7H5WTVvRNx37FkBNzJ.q
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 40
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:670 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$iu6wtLyoeTZ/C.Rkm25NcunZX3ZdUkpcDNAPhHHneAzqIGwg1Eq3u
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 41
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$7D4/u8AFbPAMEU7P5SdxD.sgpcUEfc7wqNgRvGmYHTAl8WSzPo60S
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 42
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : aowkeoakeoa
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$EqimQpMgnPERWmO9qLNjtexc.RcpDLa3ll3/Cthu4ua21RssG7AeC
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 43
+2022-07-26 17:48:29:678 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : aowkeoakeoa
+2022-07-26 17:48:29:686 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:686 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$6xviYvqDDWeFUtGkFK1wn.c0hmNyM45VMdLGHHrCwBNXeY9BlXSkC
+2022-07-26 17:48:29:687 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:687 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 45
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$tldoJaOzLfwTHD4P985hPOpX1/G8tKWlEWQ19kngcICyKOkTDsoWe
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 46
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : string
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : string
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$I9szDoMNile8p/eXcCzMyuE6Z3nLNR8APkPEK1WGGt.5cUlvnkDmi
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:77 INFO  - -------------------------
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:78 INFO  - ID       : 47
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:79 INFO  - Username : team A
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:80 INFO  - Email    : team-a@gmail.com
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:81 INFO  - Password : $2a$10$mrYDxl.XIPI/4UeVKKfwAu.Onpku5j2J3HcgRcPukWReSeF7vj0b2
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:89 INFO  - ==================== Logger End Get All Users     ====================
+2022-07-26 17:48:29:688 com.teamc.bioskop.Controller.UserController:90 INFO  -  
+2022-07-26 17:50:50:304 com.teamc.bioskop.Controller.BookingController:142 INFO  - ==================== Logger Start Create Booking ====================
+2022-07-26 17:50:50:304 com.teamc.bioskop.Controller.BookingController:143 INFO  - Create Booking : BookingResponsePost{book_id=22, sch_id=9, usr_id=47}
+2022-07-26 17:50:50:304 com.teamc.bioskop.Controller.BookingController:144 INFO  - ==================== Logger End Create Booking ====================
+2022-07-26 20:28:34:398 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:28:34:398 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=User Already Exist!, message=query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2, status=400},[]>
+2022-07-26 20:28:34:398 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:28:34:398 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:31:13:264 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:31:13:266 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=User Already Exist!, message=Email has been taken, status=400},[]>
+2022-07-26 20:31:13:266 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:31:13:266 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:32:58:824 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:32:58:824 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email has been taken, status=400},[]>
+2022-07-26 20:32:58:824 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:32:58:832 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:34:07:308 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:34:07:311 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email or Username has been taken, status=400},[]>
+2022-07-26 20:34:07:312 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:34:07:313 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:34:33:559 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:34:33:559 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2, status=400},[]>
+2022-07-26 20:34:33:559 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:34:33:559 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:35:00:444 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:35:00:446 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2, status=400},[]>
+2022-07-26 20:35:00:447 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:35:00:447 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:35:06:711 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:35:06:711 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2, status=400},[]>
+2022-07-26 20:35:06:711 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:35:06:711 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:36:34:770 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:36:34:772 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2, status=400},[]>
+2022-07-26 20:36:34:774 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:36:34:775 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:36:58:814 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 20:36:58:814 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 20:36:58:815 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 48
+2022-07-26 20:36:58:815 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : test
+2022-07-26 20:36:58:815 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : iniemailbarugaisya@gmail.com
+2022-07-26 20:36:58:816 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$AreOPgfMLW2bjAgUC.rbguqEJdHOCWyo33bK8C6ocu7omqHrStMwq
+2022-07-26 20:36:58:816 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 20:36:58:816 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 20:37:04:083 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:37:04:083 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email or Username has been taken, status=400},[]>
+2022-07-26 20:37:04:084 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:37:04:084 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:37:15:018 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:37:15:018 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email or Username has been taken, status=400},[]>
+2022-07-26 20:37:15:018 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:37:15:019 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:37:29:556 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:37:29:556 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email or Username has been taken, status=400},[]>
+2022-07-26 20:37:29:557 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:37:29:557 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:37:50:455 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 20:37:50:455 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 20:37:50:456 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 49
+2022-07-26 20:37:50:456 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : testaowekoawke
+2022-07-26 20:37:50:456 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : iniemailbarugaisya@gmail
+2022-07-26 20:37:50:456 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$oEGm2dIldQvJBQZBv9iK8ux5.j2UbeXyTfeR/3cxFjQMDFZSn9QF.
+2022-07-26 20:37:50:457 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 20:37:50:457 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 20:38:19:798 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:38:19:798 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email or Username has been taken, status=400},[]>
+2022-07-26 20:38:19:799 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:38:19:799 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:39:21:747 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:39:21:749 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Email has been taken, status=400},[]>
+2022-07-26 20:39:21:750 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:39:21:750 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:39:30:760 com.teamc.bioskop.Controller.LoginController:102 INFO  - ==================== Logger Start Create Users     ====================
+2022-07-26 20:39:30:760 com.teamc.bioskop.Controller.LoginController:103 ERROR - <400 BAD_REQUEST Bad Request,{data=null, message=Username has been taken, status=400},[]>
+2022-07-26 20:39:30:760 com.teamc.bioskop.Controller.LoginController:104 INFO  - ==================== Logger End Create Users     ====================
+2022-07-26 20:39:30:763 com.teamc.bioskop.Controller.LoginController:105 INFO  -  
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 50
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : tokeeen
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : i@gmail.com
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$aJgM2A7CnmKEN.AERBjcIOhJQnhzYbcOA2jPeM2ge30Oy9ln3PhXq
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:98 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 20:39:42:869 com.teamc.bioskop.Controller.LoginController:99 INFO  -  
+2022-07-26 20:42:34:708 com.teamc.bioskop.Controller.LoginController:86 INFO  - ==================== Logger Start Create Users ====================
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:87 INFO  - User Successfully Created !
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:88 INFO  - ID       : 51
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:89 INFO  - Username : tokeen
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:90 INFO  - Email    : initoken@gmail.com
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:91 INFO  - Password : $2a$10$V0cYUt3ISNMWEFtr81vhpO28Y.wsJX1lrQckwHfuq3xciHEe5UDAm
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:99 INFO  - ==================== Logger End Create Users   ====================
+2022-07-26 20:42:34:716 com.teamc.bioskop.Controller.LoginController:100 INFO  -  
+2022-07-26 21:02:21:764 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:02:21:765 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:02:21:765 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:02:21:765 com.teamc.bioskop.Controller.UserController:219 INFO  -  
+2022-07-26 21:02:28:514 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:02:28:514 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:02:28:514 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:02:28:514 com.teamc.bioskop.Controller.UserController:219 INFO  -  
+2022-07-26 21:03:23:655 com.teamc.bioskop.Controller.UserController:222 INFO  - ==================== Logger Start Delete Users     ====================
+2022-07-26 21:03:23:655 com.teamc.bioskop.Controller.UserController:223 ERROR - <404 NOT_FOUND Not Found,{data=Data Not Found!, message=Rudias cannot delete user, status=404},[]>
+2022-07-26 21:03:23:663 com.teamc.bioskop.Controller.UserController:224 INFO  - ==================== Logger End Delete Users     ====================
+2022-07-26 21:03:23:663 com.teamc.bioskop.Controller.UserController:225 INFO  -  
+2022-07-26 21:05:29:741 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:05:29:742 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:05:29:743 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:05:29:743 com.teamc.bioskop.Controller.UserController:219 INFO  -  
+2022-07-26 21:05:44:422 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:05:44:422 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:05:44:422 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:05:44:422 com.teamc.bioskop.Controller.UserController:219 INFO  -  
+2022-07-26 21:06:31:348 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:06:31:350 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:06:31:350 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:06:31:350 com.teamc.bioskop.Controller.UserController:219 INFO  -  
+2022-07-26 21:06:36:173 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:06:36:175 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:06:36:175 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:06:36:175 com.teamc.bioskop.Controller.UserController:219 INFO  -  
+2022-07-26 21:07:55:893 com.teamc.bioskop.Controller.UserController:216 INFO  - ==================== Logger Start Delete Users ====================
+2022-07-26 21:07:55:893 com.teamc.bioskop.Controller.UserController:217 INFO  - User Data Successfully Deleted! :true
+2022-07-26 21:07:55:902 com.teamc.bioskop.Controller.UserController:218 INFO  - ==================== Logger End Delete Users   ====================
+2022-07-26 21:07:55:902 com.teamc.bioskop.Controller.UserController:219 INFO  -  
