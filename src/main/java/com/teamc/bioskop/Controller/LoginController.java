@@ -38,7 +38,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @AllArgsConstructor
 @Tag(name = "1. Sign Up/Login Controller")
 @OpenAPIDefinition(info = @Info(title = "Team A Bioskop Rest API - Docs",
-        description = "Silahkan dilihat-lihat, kalau ada yg kurang diam aja ga usah dikasih tau... Karena kami lelah"))
+        description = "Basmalah, Hamdalah"))
 public class LoginController {
 
 
