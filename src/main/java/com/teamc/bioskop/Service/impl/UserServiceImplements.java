@@ -103,7 +103,7 @@ public class UserServiceImplements implements UserService, UserDetailsService {
     public User createUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         if (user.getRoles().isEmpty()){
-            Role role = this.roleRepository.findByName("ROLE_USER");
+            Role role = this.roleRepository.findByName("ROLE_CUSTOMER");
             roles.add(role);
             user.setRoles(roles);
         }
