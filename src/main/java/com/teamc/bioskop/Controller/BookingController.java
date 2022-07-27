@@ -4,10 +4,6 @@ import com.teamc.bioskop.DTO.BookingRequestDTO;
 import com.teamc.bioskop.Exception.ResourceNotFoundException;
 import com.teamc.bioskop.Model.Booking;
 import com.teamc.bioskop.Model.Films;
-import com.teamc.bioskop.Model.Schedule;
-import com.teamc.bioskop.Model.User;
-import com.teamc.bioskop.Repository.ScheduleRepository;
-import com.teamc.bioskop.Repository.UserRepository;
 import com.teamc.bioskop.Response.BookingResponseDTO;
 import com.teamc.bioskop.Response.BookingResponsePost;
 import com.teamc.bioskop.Response.ResponseHandler;
@@ -46,10 +42,6 @@ public class BookingController {
     private BookingService bookingService;
     private ReportPDFBookingService reportPDFBookingService;
     private HttpServletResponse response;
-
-    private UserRepository userRepository;
-
-    private ScheduleRepository scheduleRepository;
 
 
 
@@ -116,12 +108,10 @@ public class BookingController {
     @PutMapping("/dashboard/booking/{id}")
     public ResponseEntity<Object> bookingupdate(@PathVariable Long id, @RequestBody BookingRequestDTO bookingRequestDTO) {
         try {
-            if (bookingRequestDTO.getScheduleId() == null || bookingRequestDTO.getUserId() == null) {
+            if (bookingRequestDTO.getSch() == null || bookingRequestDTO.getUsr() == null) {
                 throw new ResourceNotFoundException("Booking must have schedule id and user id");
             }
-            Optional<Schedule> schedule = scheduleRepository.findById(bookingRequestDTO.getScheduleId());
-            Optional<User> user = userRepository.findById(bookingRequestDTO.getUserId());
-            Booking booking = new Booking().builder().user(user.get()).schedule(schedule.get()).build();
+            Booking booking = bookingRequestDTO.covertToEntitiy();
             booking.setBookingId(id);
             Booking bookingUpdate = bookingService.updateBooking(booking);
             BookingResponseDTO results = bookingUpdate.convertToResponse();
@@ -143,12 +133,11 @@ public class BookingController {
      */
     @PostMapping("/booking")
     public ResponseEntity<Object> bookingCreate(@RequestBody BookingRequestDTO bookingRequestDTO
-            , Authentication authentication) {
+            , Principal principal, Authentication authentication) {
         try {
-            Optional<Schedule> schedule = scheduleRepository.findById(bookingRequestDTO.getScheduleId());
-            Optional<User> user = userRepository.findById(bookingRequestDTO.getUserId());
-            Booking booking = new Booking().builder().user(user.get()).schedule(schedule.get()).build();
-            bookingService.createBooking(booking, authentication);
+
+            Booking booking = bookingRequestDTO.covertToEntitiy();
+            bookingService.createBooking(booking, principal);
             BookingResponsePost result = booking.convertToResponsePost();
             logger.info(Line + " Logger Start Create Booking " + Line);
             logger.info("Create Booking : " + result);
