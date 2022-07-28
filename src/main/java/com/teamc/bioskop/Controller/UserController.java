@@ -172,7 +172,7 @@ public class UserController {
      * @param userDetails
      * @return
      */
-    @PutMapping("/dashboard/user")
+    @PutMapping("/update/user")
     public ResponseEntity<Object> updateUser(Authentication authentication, @RequestBody User userDetails) {
 
 
@@ -194,7 +194,7 @@ public class UserController {
      * @param users_Id
      * @return
      */
-    @DeleteMapping("/dashboard/user/{users_Id}")
+    @DeleteMapping("/delete/user/{users_Id}")
     public ResponseEntity<Object> deleteUser(@PathVariable Long users_Id) {
         try {
             userServiceImplements.deleteUserById(users_Id);
