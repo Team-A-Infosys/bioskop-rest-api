@@ -126,13 +126,10 @@ public class UserServiceImplements implements UserService, UserDetailsService {
      * @param users_Id
      */
     @Override
-    public void deleteUserById(Long users_Id) {
+    public void deleteUserById(Authentication authentication) {
 
-        Optional<User> optionalUser = userRepository.findById(users_Id);
-        if (optionalUser == null) {
-            throw new ResourceNotFoundException("User not exist with id :" + users_Id);
-        }
-        User user = userRepository.getById(users_Id);
+        String userAuth = authentication.getName();
+        User user = this.userRepository.findByUsername(userAuth);
         this.userRepository.delete(user);
     }
 

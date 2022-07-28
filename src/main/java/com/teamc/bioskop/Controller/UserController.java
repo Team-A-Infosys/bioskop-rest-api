@@ -194,10 +194,10 @@ public class UserController {
      * @param users_Id
      * @return
      */
-    @DeleteMapping("/delete/user/{users_Id}")
-    public ResponseEntity<Object> deleteUser(@PathVariable Long users_Id) {
+    @DeleteMapping("/delete/user")
+    public ResponseEntity<Object> deleteUser(Authentication authentication) {
         try {
-            userServiceImplements.deleteUserById(users_Id);
+            userServiceImplements.deleteUserById(authentication);
             Map<String, Boolean> response = new HashMap<>();
             response.put("deleted", Boolean.TRUE);
             logger.info("==================== Logger Start Delete Users ====================");

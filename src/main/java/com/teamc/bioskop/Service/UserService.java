@@ -22,7 +22,7 @@ public interface UserService {
 
     Optional<User> getUserById(Long users_Id);
 
-    void deleteUserById(Long users_Id);
+    void deleteUserById(Authentication authentication);
 
     User updateUser(User user, Authentication authentication);
 
