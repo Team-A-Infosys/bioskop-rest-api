@@ -127,7 +127,9 @@ public class UserServiceImplements implements UserService, UserDetailsService {
      */
     @Override
     public void deleteUserById(Authentication authentication) {
-
+        if (authentication == null){
+            throw new ResourceNotFoundException("Not authenticated, forbidden");
+        }
         String userAuth = authentication.getName();
         User user = this.userRepository.findByUsername(userAuth);
         this.userRepository.delete(user);
