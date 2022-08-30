@@ -5,7 +5,6 @@
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
-    <option name="SHOW_INTENTION_PREVIEW" value="true" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAnonymousClasses" value="true" />
