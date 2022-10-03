@@ -6,8 +6,13 @@
           <option name="url" value="http://code.mylabzolution.com" />
           <option name="userName" value="yellia_viona" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://code.mylabzolution.com/edc-business/dashboard-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="C:\Users" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
