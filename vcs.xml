@@ -10,6 +10,10 @@
           <option name="url" value="https://code.mylabzolution.com/edc-business/dashboard-service.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="yelliaviona09" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users" />
