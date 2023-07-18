@@ -4,7 +4,7 @@
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE:PREVIEW" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAnonymousClasses" value="true" />
